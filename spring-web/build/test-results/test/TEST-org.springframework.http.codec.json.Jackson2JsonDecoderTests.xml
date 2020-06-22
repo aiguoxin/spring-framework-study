@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2JsonDecoderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:39" hostname="aiguoxindeMacBook-Pro.local" time="0.657">
+  <properties/>
+  <testcase name="decodeToMono()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.089"/>
+  <testcase name="decodeNonUtf8Encoding()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.236"/>
+  <testcase name="decode()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.012"/>
+  <testcase name="decodeNonUnicode()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.048"/>
+  <testcase name="decodeWithNullLiteral()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.003"/>
+  <testcase name="invalidData()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.02"/>
+  <testcase name="decodableMimeTypesIsImmutable()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="canDecode()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.01"/>
+  <testcase name="decodeMonoNonUtf8Encoding()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.005"/>
+  <testcase name="noDefaultConstructor()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.064"/>
+  <testcase name="decodeEmptyArrayToFlux()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.017"/>
+  <testcase name="customDeserializer()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.099"/>
+  <testcase name="canDecodeWithProvidedMimeType()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.01"/>
+  <testcase name="bigDecimalFlux()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.003"/>
+  <testcase name="fieldLevelJsonView()" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.003"/>
+  <system-out><![CDATA[14:39:39.627 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [[Pojo[foo='f1', bar='b1'], Pojo[foo='f2', bar='b2']]]
+14:39:39.857 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [{foo=bar}]
+14:39:39.875 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+14:39:39.876 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f2', bar='b2']]
+14:39:39.881 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+14:39:39.882 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+14:39:39.931 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [{føø=bår}]
+14:39:39.939 [Test worker] DEBUG o.s.w.HttpLogging - Decoded []
+14:39:39.986 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [{foo=bar}]
+14:39:40.174 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [org.springframework.http.codec.json.Jackson2JsonDecoderTests$TestObject@6fddfdac]
+14:39:40.186 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [org.springframework.http.codec.json.JacksonViewBean@78f61655]
+14:39:40.189 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [1E+2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

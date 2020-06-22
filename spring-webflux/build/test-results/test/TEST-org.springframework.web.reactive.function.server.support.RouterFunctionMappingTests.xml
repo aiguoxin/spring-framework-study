@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.support.RouterFunctionMappingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:06" hostname="aiguoxindeMacBook-Pro.local" time="0.095">
+  <properties/>
+  <testcase name="normal()" classname="org.springframework.web.reactive.function.server.support.RouterFunctionMappingTests" time="0.074"/>
+  <testcase name="noMatch()" classname="org.springframework.web.reactive.function.server.support.RouterFunctionMappingTests" time="0.02"/>
+  <system-out><![CDATA[14:07:06.779 [Test worker] DEBUG o.s.w.r.f.s.s.RouterFunctionMapping - [62bda3c7] Mapped to org.springframework.web.reactive.function.server.support.RouterFunctionMappingTests$$Lambda$807/787292049@20f3283e
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.annotation.EnableTransactionManagementTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:44" hostname="aiguoxindeMacBook-Pro.local" time="2.332">
+  <properties/>
+  <testcase name="transactionProxyIsCreated()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.66"/>
+  <testcase name="transactionProxyIsCreatedWithEnableOnSuperclass()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.103"/>
+  <testcase name="txManagerIsResolvedCorrectlyWithSingleTxManagerBeanAndTxMgmtConfigurer()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.206"/>
+  <testcase name="spr14322FindsOnInterfaceWithInterfaceProxy()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.124"/>
+  <testcase name="spr11915TransactionManagerAsManualSingleton()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.14"/>
+  <testcase name="txManagerIsResolvedCorrectlyWithTxMgmtConfigurerAndPrimaryPresent()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.151"/>
+  <testcase name="proxyTypeAspectJCausesRegistrationOfAnnotationTransactionAspect()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.008"/>
+  <testcase name="txManagerIsResolvedOnInvocationOfTransactionalMethod()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.214"/>
+  <testcase name="transactionalEventListenerRegisteredProperly()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.107"/>
+  <testcase name="transactionProxyIsCreatedWithEnableOnExcludedSuperclass()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.177"/>
+  <testcase name="spr14322FindsOnInterfaceWithCglibProxy()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.222"/>
+  <testcase name="txManagerIsResolvedCorrectlyWhenMultipleManagersArePresentAndOneIsPrimary()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.149"/>
+  <testcase name="txManagerIsResolvedCorrectlyWhenMultipleManagersArePresent()" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.06"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

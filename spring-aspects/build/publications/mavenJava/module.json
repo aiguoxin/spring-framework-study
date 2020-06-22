@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-aspects",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-aspects-5.3.0-SNAPSHOT.jar",
+          "url": "spring-aspects-5.3.0-SNAPSHOT.jar",
+          "size": 47143,
+          "sha512": "ac8c77ba1f5d8e0382830bd5522ffcfb87d849a858de385e011299ad58cf692914cb41f7200f3e71c3482769557944d4bcd33bccef1f5473069c3d94f4ee45f5",
+          "sha256": "87c67c1905563e862736cd2c07581f7992c8ae60877cc936455b63ccb98f6107",
+          "sha1": "3fc3e534bf30079f13101f2475a9fa4807544265",
+          "md5": "c6b18347f5af96ef6bf81b96bc36c38c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-aspects-5.3.0-SNAPSHOT.jar",
+          "url": "spring-aspects-5.3.0-SNAPSHOT.jar",
+          "size": 47143,
+          "sha512": "ac8c77ba1f5d8e0382830bd5522ffcfb87d849a858de385e011299ad58cf692914cb41f7200f3e71c3482769557944d4bcd33bccef1f5473069c3d94f4ee45f5",
+          "sha256": "87c67c1905563e862736cd2c07581f7992c8ae60877cc936455b63ccb98f6107",
+          "sha1": "3fc3e534bf30079f13101f2475a9fa4807544265",
+          "md5": "c6b18347f5af96ef6bf81b96bc36c38c"
+        }
+      ]
+    }
+  ]
+}

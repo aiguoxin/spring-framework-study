@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.script.JythonScriptTemplateTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:09:02" hostname="aiguoxindeMacBook-Pro.local" time="5.304">
+  <properties/>
+  <testcase name="renderTemplate()" classname="org.springframework.web.servlet.view.script.JythonScriptTemplateTests" time="5.304"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

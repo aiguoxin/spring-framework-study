@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.core.H2TransactionalDatabaseClientIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:35" hostname="aiguoxindeMacBook-Pro.local" time="1.141">
+  <properties/>
+  <testcase name="shouldRollbackTransactionUsingTransactionalOperator()" classname="org.springframework.r2dbc.core.H2TransactionalDatabaseClientIntegrationTests" time="0.997"/>
+  <testcase name="shouldRollbackTransaction()" classname="org.springframework.r2dbc.core.H2TransactionalDatabaseClientIntegrationTests" time="0.03"/>
+  <testcase name="executeInsertInTransaction()" classname="org.springframework.r2dbc.core.H2TransactionalDatabaseClientIntegrationTests" time="0.062"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

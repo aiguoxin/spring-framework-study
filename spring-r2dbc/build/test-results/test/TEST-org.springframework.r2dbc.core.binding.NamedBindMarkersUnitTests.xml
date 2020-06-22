@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:34" hostname="aiguoxindeMacBook-Pro.local" time="0.198">
+  <properties/>
+  <testcase name="nextShouldConsiderFilteredNameHint()" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.009"/>
+  <testcase name="nextShouldConsiderNameHint()" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.001"/>
+  <testcase name="bindNullShouldBindByName()" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.001"/>
+  <testcase name="nextShouldIncrementBindMarker(String)[1]" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.07"/>
+  <testcase name="nextShouldIncrementBindMarker(String)[2]" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.0"/>
+  <testcase name="nextShouldConsiderNameLimit()" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.0"/>
+  <testcase name="shouldCreateNewBindMarkers()" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.001"/>
+  <testcase name="bindValueShouldBindByName()" classname="org.springframework.r2dbc.core.binding.NamedBindMarkersUnitTests" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

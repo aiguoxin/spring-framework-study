@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.target.LazyCreationTargetSourceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:03:18" hostname="aiguoxindeMacBook-Pro.local" time="0.011">
+  <properties/>
+  <testcase name="testCreateLazy()" classname="org.springframework.aop.target.LazyCreationTargetSourceTests" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.DefaultRSocketStrategiesTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:15" hostname="aiguoxindeMacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="copyConstructor()" classname="org.springframework.messaging.rsocket.DefaultRSocketStrategiesTests" time="0.0"/>
+  <testcase name="applyMetadataExtractors()" classname="org.springframework.messaging.rsocket.DefaultRSocketStrategiesTests" time="0.0"/>
+  <testcase name="defaultSettings()" classname="org.springframework.messaging.rsocket.DefaultRSocketStrategiesTests" time="0.0"/>
+  <testcase name="explicitValues()" classname="org.springframework.messaging.rsocket.DefaultRSocketStrategiesTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

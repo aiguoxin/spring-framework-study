@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" tests="9" skipped="1" failures="0" errors="0" timestamp="2020-06-22T06:06:17" hostname="aiguoxindeMacBook-Pro.local" time="0.349">
+  <properties/>
+  <testcase name="multipleCacheManagerBeans_implementsCachingConfigurer()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.184"/>
+  <testcase name="bothSetOnlyResolverIsUsed()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.03"/>
+  <testcase name="emptyConfigSupport()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testKeyStrategy()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.04"/>
+  <testcase name="testCacheErrorHandler()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.022"/>
+  <testcase name="multipleCacheManagerBeans()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.021"/>
+  <testcase name="multipleCachingConfigurers()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.014"/>
+  <testcase name="noCacheManagerBeans()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.013"/>
+  <testcase name="singleCacheManagerBean()" classname="org.springframework.cache.aspectj.AspectJEnableCachingIsolatedTests" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

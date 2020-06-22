@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.TargetPointcutSelectionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:52" hostname="aiguoxindeMacBook-Pro.local" time="0.053">
+  <properties/>
+  <testcase name="targetSelectionForMatchedType()" classname="org.springframework.aop.aspectj.TargetPointcutSelectionTests" time="0.04"/>
+  <testcase name="targetNonSelectionForMismatchedType()" classname="org.springframework.aop.aspectj.TargetPointcutSelectionTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

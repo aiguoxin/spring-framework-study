@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:05:05" hostname="aiguoxindeMacBook-Pro.local" time="7.454">
+  <properties/>
+  <testcase name="dataWithType with Flow()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="3.473"/>
+  <testcase name="dataWithType with CompletableFuture()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.881"/>
+  <testcase name="dataFlowWithoutType()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.012"/>
+  <testcase name="connectAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="1.663"/>
+  <testcase name="dataWithType with Publisher()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.026"/>
+  <testcase name="retrieveAndAwaitOrNull()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.018"/>
+  <testcase name="connectWebSocketAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.221"/>
+  <testcase name="sendAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.007"/>
+  <testcase name="retrieveFlow()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="1.052"/>
+  <testcase name="retrieveFlux()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.038"/>
+  <testcase name="retrieveMono()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.009"/>
+  <testcase name="retrieveAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.008"/>
+  <testcase name="connectTcpAndAwait()" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

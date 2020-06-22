@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.function.ServerRequestExtensionsTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:09:20" hostname="aiguoxindeMacBook-Pro.local" time="1.332">
+  <properties/>
+  <testcase name="contentTypeOrNull with value()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.784"/>
+  <testcase name="contentLengthOrNull with value()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.098"/>
+  <testcase name="attributeOrNull with null()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.059"/>
+  <testcase name="remoteAddressOrNull with value()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.006"/>
+  <testcase name="principalOrNull with value()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.12"/>
+  <testcase name="principalOrNull with null()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.005"/>
+  <testcase name="paramOrNull with null()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.006"/>
+  <testcase name="paramOrNull with value()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.005"/>
+  <testcase name="body()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.21"/>
+  <testcase name="contentTypeOrNull with null()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.006"/>
+  <testcase name="attributeOrNull with value()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.004"/>
+  <testcase name="contentLengthOrNull with null()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.005"/>
+  <testcase name="remoteAddressOrNull with null()" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

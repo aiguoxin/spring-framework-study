@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-messaging",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-messaging-5.3.0-SNAPSHOT.jar",
+          "url": "spring-messaging-5.3.0-SNAPSHOT.jar",
+          "size": 549521,
+          "sha512": "52ec1ef943ee739f21fba353104e0e062f6f71294e8b4759e17c9fce0ff105a213637d543c67377f3338e246c77d802afc14749d4c74217f8af374d6479c2b76",
+          "sha256": "55db97e58724d43735ea0eb17d8bfe141d53a49b1657a36e88996fc97fbbb822",
+          "sha1": "1d1448047290f541f179cf5d10812f4ce2577641",
+          "md5": "00c7f6033aab472ab464a93b1f7066f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-messaging-5.3.0-SNAPSHOT.jar",
+          "url": "spring-messaging-5.3.0-SNAPSHOT.jar",
+          "size": 549521,
+          "sha512": "52ec1ef943ee739f21fba353104e0e062f6f71294e8b4759e17c9fce0ff105a213637d543c67377f3338e246c77d802afc14749d4c74217f8af374d6479c2b76",
+          "sha256": "55db97e58724d43735ea0eb17d8bfe141d53a49b1657a36e88996fc97fbbb822",
+          "sha1": "1d1448047290f541f179cf5d10812f4ce2577641",
+          "md5": "00c7f6033aab472ab464a93b1f7066f8"
+        }
+      ]
+    }
+  ]
+}

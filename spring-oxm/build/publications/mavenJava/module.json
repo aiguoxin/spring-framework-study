@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-oxm",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-oxm-5.3.0-SNAPSHOT.jar",
+          "url": "spring-oxm-5.3.0-SNAPSHOT.jar",
+          "size": 64165,
+          "sha512": "de01ff2fb989e36453725bf5047fe88078d5364ff18a73035ee70154197055bcadf174195716659bddb8ccf209fd2271c501691aecf5d27e1cad26030d985eac",
+          "sha256": "d2751c7b017c2ef211cb1ab8afe6fc445aaa814239fb43af9b373a257f52c718",
+          "sha1": "f1a48e098bb95ed0a1e3313560db1dd78d1bc01d",
+          "md5": "3807728f83936d8763b63e3c8379e2ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-oxm-5.3.0-SNAPSHOT.jar",
+          "url": "spring-oxm-5.3.0-SNAPSHOT.jar",
+          "size": 64165,
+          "sha512": "de01ff2fb989e36453725bf5047fe88078d5364ff18a73035ee70154197055bcadf174195716659bddb8ccf209fd2271c501691aecf5d27e1cad26030d985eac",
+          "sha256": "d2751c7b017c2ef211cb1ab8afe6fc445aaa814239fb43af9b373a257f52c718",
+          "sha1": "f1a48e098bb95ed0a1e3313560db1dd78d1bc01d",
+          "md5": "3807728f83936d8763b63e3c8379e2ab"
+        }
+      ]
+    }
+  ]
+}

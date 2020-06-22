@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" tests="39" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:41" hostname="aiguoxindeMacBook-Pro.local" time="0.114">
+  <properties/>
+  <testcase name="getHandlerHttpOptions(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.003"/>
+  <testcase name="getHandlerHttpOptions(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerUnsatisfiedServletRequestParameterException(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.003"/>
+  <testcase name="getHandlerUnsatisfiedServletRequestParameterException(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerGlobMatch(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerGlobMatch(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="handleMatchBestMatchingPatternAttributeNoPatternsDefined(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="handleMatchBestMatchingPatternAttributeNoPatternsDefined(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="getHandlerMediaTypeNotSupported(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.002"/>
+  <testcase name="getHandlerMediaTypeNotSupported(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerRequestMethodNotAllowed(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerRequestMethodNotAllowed(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="handleMatchUriTemplateVariables(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="handleMatchUriTemplateVariables(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerBestMatch(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="getHandlerBestMatch(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="getHandlerProducibleMediaTypesAttribute(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerProducibleMediaTypesAttribute(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="handleMatchBestMatchingPatternAttribute(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="handleMatchBestMatchingPatternAttribute(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="handleMatchUriTemplateVariablesDecode(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="handleMatchUriTemplateVariablesDecode(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="getHandlerEmptyPathMatch(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="getHandlerEmptyPathMatch(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getMappingPathPatterns(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getMappingPathPatterns(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerTestInvalidContentType(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.002"/>
+  <testcase name="getHandlerTestInvalidContentType(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.025"/>
+  <testcase name="getHandlerDirectMatch(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerDirectMatch(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="getHandlerRequestMethodMatchFalsePositive(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.002"/>
+  <testcase name="getHandlerRequestMethodMatchFalsePositive(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="handleMatchMatrixVariablesDecoding(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="handleMatchMatrixVariablesDecoding(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="getHandlerMappedInterceptors()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.002"/>
+  <testcase name="handleMatchMatrixVariables(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <testcase name="handleMatchMatrixVariables(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.0"/>
+  <testcase name="getHandlerMediaTypeNotAccepted(TestRequestMappingInfoHandlerMapping)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.002"/>
+  <testcase name="getHandlerMediaTypeNotAccepted(TestRequestMappingInfoHandlerMapping)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMappingTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

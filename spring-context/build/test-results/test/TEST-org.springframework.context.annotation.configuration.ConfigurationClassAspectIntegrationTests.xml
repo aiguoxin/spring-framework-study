@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.ConfigurationClassAspectIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:05:18" hostname="aiguoxindeMacBook-Pro.local" time="0.191">
+  <properties/>
+  <testcase name="configurationIncludesAspect()" classname="org.springframework.context.annotation.configuration.ConfigurationClassAspectIntegrationTests" time="0.078"/>
+  <testcase name="withInnerClassAndLambdaExpression()" classname="org.springframework.context.annotation.configuration.ConfigurationClassAspectIntegrationTests" time="0.038"/>
+  <testcase name="aspectAnnotatedConfiguration()" classname="org.springframework.context.annotation.configuration.ConfigurationClassAspectIntegrationTests" time="0.075"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

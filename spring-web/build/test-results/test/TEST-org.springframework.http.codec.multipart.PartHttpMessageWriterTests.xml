@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.multipart.PartHttpMessageWriterTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:41" hostname="aiguoxindeMacBook-Pro.local" time="0.04">
+  <properties/>
+  <testcase name="canWrite()" classname="org.springframework.http.codec.multipart.PartHttpMessageWriterTests" time="0.0"/>
+  <testcase name="write()" classname="org.springframework.http.codec.multipart.PartHttpMessageWriterTests" time="0.039"/>
+  <system-out><![CDATA[14:39:41.115 [Test worker] DEBUG o.s.w.HttpLogging - Encoding Publisher<Part>
+14:39:41.129 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [file part, text part] (content masked)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

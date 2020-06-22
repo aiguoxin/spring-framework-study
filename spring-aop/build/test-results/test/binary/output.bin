@@ -1,0 +1,11 @@
+UInvoked with transaction @org.springframework.aop.aspectj.annotation.Transactional()
+„got 'Supercalifragalisticexpialidocious' at 'execution(void org.springframework.beans.testfixture.beans.ITestBean.setName(String))'
++?org.springframework.aop.aspectj.DeclareParentsAdvisor@6237cc67
+üû*StopWatch '': running time = 300309633 ns
+üû.---------------------------------------------
+üûns         %     Task name
+üû.---------------------------------------------
+üûG181985864  061%  100000 invocations on proxy, not hitting introduction
+üûC114222042  038%  100000 invocations on proxy, hitting introduction
+üû.004101727  001%  100000 invocations on target
+üû

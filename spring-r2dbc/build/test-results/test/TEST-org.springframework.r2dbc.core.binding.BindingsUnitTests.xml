@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.core.binding.BindingsUnitTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:34" hostname="aiguoxindeMacBook-Pro.local" time="0.047">
+  <properties/>
+  <testcase name="shouldApplyValueBinding()" classname="org.springframework.r2dbc.core.binding.BindingsUnitTests" time="0.027"/>
+  <testcase name="shouldMergeBindings()" classname="org.springframework.r2dbc.core.binding.BindingsUnitTests" time="0.009"/>
+  <testcase name="shouldApplySimpleNullBinding()" classname="org.springframework.r2dbc.core.binding.BindingsUnitTests" time="0.001"/>
+  <testcase name="shouldApplyNullBinding()" classname="org.springframework.r2dbc.core.binding.BindingsUnitTests" time="0.0"/>
+  <testcase name="shouldConsumeBindings()" classname="org.springframework.r2dbc.core.binding.BindingsUnitTests" time="0.005"/>
+  <testcase name="shouldApplySimpleValueBinding()" classname="org.springframework.r2dbc.core.binding.BindingsUnitTests" time="0.001"/>
+  <testcase name="shouldCreateBindings()" classname="org.springframework.r2dbc.core.binding.BindingsUnitTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

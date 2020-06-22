@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.reactive.TransactionalOperatorExtensionsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:52" hostname="aiguoxindeMacBook-Pro.local" time="0.33">
+  <properties/>
+  <testcase name="rollbackWithSuspendingFunction()" classname="org.springframework.transaction.reactive.TransactionalOperatorExtensionsTests" time="0.239"/>
+  <testcase name="commitWithFlow()" classname="org.springframework.transaction.reactive.TransactionalOperatorExtensionsTests" time="0.076"/>
+  <testcase name="rollbackWithFlow()" classname="org.springframework.transaction.reactive.TransactionalOperatorExtensionsTests" time="0.004"/>
+  <testcase name="commitWithSuspendingFunction()" classname="org.springframework.transaction.reactive.TransactionalOperatorExtensionsTests" time="0.004"/>
+  <testcase name="commitWithEmptySuspendingFunction()" classname="org.springframework.transaction.reactive.TransactionalOperatorExtensionsTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

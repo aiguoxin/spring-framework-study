@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:38" hostname="aiguoxindeMacBook-Pro.local" time="10.146">
+  <properties/>
+  <testcase name="runTestsInParallel()[1]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="1.145"/>
+  <testcase name="runTestsInParallel()[2]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="2.064"/>
+  <testcase name="runTestsInParallel()[3]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="1.927"/>
+  <testcase name="runTestsInParallel()[4]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="1.049"/>
+  <testcase name="runTestsInParallel()[5]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.786"/>
+  <testcase name="runTestsInParallel()[6]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.808"/>
+  <testcase name="runTestsInParallel()[7]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.671"/>
+  <testcase name="runTestsInParallel()[8]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.649"/>
+  <testcase name="runTestsInParallel()[9]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.58"/>
+  <testcase name="runTestsInParallel()[10]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.465"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

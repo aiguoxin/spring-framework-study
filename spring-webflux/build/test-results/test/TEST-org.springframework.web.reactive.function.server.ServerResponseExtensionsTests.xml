@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:09:11" hostname="aiguoxindeMacBook-Pro.local" time="4.003">
+  <properties/>
+  <testcase name="BodyBuilder#renderAndAwait with a vararg parameter()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="1.655"/>
+  <testcase name="BodyBuilder#body with Flowable and reified type parameters()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="1.256"/>
+  <testcase name="BodyBuilder#body with Publisher and reified type parameters()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.024"/>
+  <testcase name="BodyBuilder#bodyAndAwait with flow parameter()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.192"/>
+  <testcase name="BodyBuilder#sse()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.005"/>
+  <testcase name="BodyBuilder#xml()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.004"/>
+  <testcase name="HeadersBuilder#buildAndAwait()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.03"/>
+  <testcase name="BodyBuilder#html()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.005"/>
+  <testcase name="BodyBuilder#json()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.003"/>
+  <testcase name="BodyBuilder#bodyAndAwait with object parameter()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.011"/>
+  <testcase name="BodyBuilder#body with CompletableFuture and reified type parameters()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.619"/>
+  <testcase name="BodyBuilder#renderAndAwait with a Map parameter()" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.183"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

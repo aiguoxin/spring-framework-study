@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:41" hostname="aiguoxindeMacBook-Pro.local" time="0.043">
+  <properties/>
+  <testcase name="withSuffix(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.002"/>
+  <testcase name="withSuffix(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="multiLevelMappingWithFallback(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.005"/>
+  <testcase name="multiLevelMappingWithFallback(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="multiLevelWithMapping(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="multiLevelWithMapping(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="settingSuffixToNullCausesEmptyStringToBeUsed()" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="settingPrefixToNullCausesEmptyStringToBeUsed()" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withContextMapping(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withContextMapping(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withFilenameAndMatrixVariables(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withFilenameAndMatrixVariables(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withFlashAttributes(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withFlashAttributes(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="nestedPathisUsedAsViewName_InBreakingChangeFromSpring12Line(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="nestedPathisUsedAsViewName_InBreakingChangeFromSpring12Line(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withFilenamePlusExtension(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withFilenamePlusExtension(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.006"/>
+  <testcase name="multiLevel(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="multiLevel(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPrefixAndSuffix(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPrefixAndSuffix(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPlainFilename(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPlainFilename(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPrefix(Function)[1]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPrefix(Function)[2]" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:15" hostname="aiguoxindeMacBook-Pro.local" time="2.46">
+  <properties/>
+  <testcase name="ResponseSpec#expectBody with reified type parameters()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="1.102"/>
+  <testcase name="RequestBodySpec#body with CompletableFuture and reified type parameters()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.9"/>
+  <testcase name="ResponseSpec#expectBodyList with reified type parameters()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.112"/>
+  <testcase name="KotlinBodySpec#isEqualTo()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.034"/>
+  <testcase name="RequestBodySpec#body with Publisher and reified type parameters()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.098"/>
+  <testcase name="ResponseSpec#returnResult with reified type parameters()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.054"/>
+  <testcase name="RequestBodySpec#body with Flow and reified type parameters()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.101"/>
+  <testcase name="KotlinBodySpec#consumeWith()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.023"/>
+  <testcase name="KotlinBodySpec#returnResult()" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

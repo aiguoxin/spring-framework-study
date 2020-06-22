@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.client.jetty.JettyWebSocketClientTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:05:33" hostname="aiguoxindeMacBook-Pro.local" time="5.966">
+  <properties/>
+  <testcase name="doHandshake()" classname="org.springframework.web.socket.client.jetty.JettyWebSocketClientTests" time="5.934"/>
+  <testcase name="doHandshakeWithTaskExecutor()" classname="org.springframework.web.socket.client.jetty.JettyWebSocketClientTests" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

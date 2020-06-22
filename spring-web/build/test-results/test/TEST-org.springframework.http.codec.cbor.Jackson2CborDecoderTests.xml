@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.cbor.Jackson2CborDecoderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:39" hostname="aiguoxindeMacBook-Pro.local" time="0.212">
+  <properties/>
+  <testcase name="decodeToMono()" classname="org.springframework.http.codec.cbor.Jackson2CborDecoderTests" time="0.202"/>
+  <testcase name="decode()" classname="org.springframework.http.codec.cbor.Jackson2CborDecoderTests" time="0.002"/>
+  <testcase name="canDecode()" classname="org.springframework.http.codec.cbor.Jackson2CborDecoderTests" time="0.004"/>
+  <system-out><![CDATA[14:39:39.293 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [[Pojo[foo='f1', bar='b1'], Pojo[foo='f2', bar='b2']]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

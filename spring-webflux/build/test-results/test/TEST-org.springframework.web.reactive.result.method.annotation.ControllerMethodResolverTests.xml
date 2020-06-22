@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:09" hostname="aiguoxindeMacBook-Pro.local" time="0.436">
+  <properties/>
+  <testcase name="requestMappingArgumentResolvers()" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.245"/>
+  <testcase name="exceptionHandlerArgumentResolvers()" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.059"/>
+  <testcase name="initBinderArgumentResolvers()" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.03"/>
+  <testcase name="modelAttributeArgumentResolvers()" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.077"/>
+  <testcase name="exceptionHandlerFromControllerAdvice()" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.023"/>
+  <system-out><![CDATA[14:07:09.272 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+14:07:09.403 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+14:07:09.432 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+14:07:09.508 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+14:07:09.535 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

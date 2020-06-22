@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-expression",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-expression-5.3.0-SNAPSHOT.jar",
+          "url": "spring-expression-5.3.0-SNAPSHOT.jar",
+          "size": 282189,
+          "sha512": "65b9f6c049f6e9c1ce82a93295b52845dd2354e8ef1c7776d1ab1f5255f78e45a8f19b191c91f8c58b97aeefd2045bc1627361c8f7d17b6b49d15ac32323469c",
+          "sha256": "828e1a02ae17f1c45ee688e0daccb58d68392905e808b5a19f812feb060ec6ee",
+          "sha1": "6dada7f30a9aabde68062e1008c9efb60b7c1792",
+          "md5": "32bfbaa8d5edb7e17f904d878f216845"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-expression-5.3.0-SNAPSHOT.jar",
+          "url": "spring-expression-5.3.0-SNAPSHOT.jar",
+          "size": 282189,
+          "sha512": "65b9f6c049f6e9c1ce82a93295b52845dd2354e8ef1c7776d1ab1f5255f78e45a8f19b191c91f8c58b97aeefd2045bc1627361c8f7d17b6b49d15ac32323469c",
+          "sha256": "828e1a02ae17f1c45ee688e0daccb58d68392905e808b5a19f812feb060ec6ee",
+          "sha1": "6dada7f30a9aabde68062e1008c9efb60b7c1792",
+          "md5": "32bfbaa8d5edb7e17f904d878f216845"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:16" hostname="aiguoxindeMacBook-Pro.local" time="0.597">
+  <properties/>
+  <testcase name="configurePathMatcher()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.214"/>
+  <testcase name="requestMappingHandlerAdapter()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.182"/>
+  <testcase name="configureExceptionResolvers()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.01"/>
+  <testcase name="configurePathPatternParser()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.008"/>
+  <testcase name="getCustomMessageCodesResolver()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.039"/>
+  <testcase name="getCustomValidator()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.002"/>
+  <testcase name="configureMessageConverters()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.089"/>
+  <testcase name="handlerExceptionResolver()" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

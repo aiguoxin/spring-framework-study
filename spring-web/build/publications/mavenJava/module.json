@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-web",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.0-SNAPSHOT.jar",
+          "url": "spring-web-5.3.0-SNAPSHOT.jar",
+          "size": 1482014,
+          "sha512": "0950d4b4e6a31aec7b3be4bea83fa70bed8d12188abf09ec3314961d4847ae2f0963d6fccb51ad9542c156fee1de23d61c09703539f78b231da1333016933c92",
+          "sha256": "28512a7677eac484f02cac254ee02381d00f76da88644a99de399fd5680b9b9e",
+          "sha1": "54cfc9e71f8f00f40c103de6844de50bf1179580",
+          "md5": "62fe237b80a8a0895f8da73692864f08"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.0-SNAPSHOT.jar",
+          "url": "spring-web-5.3.0-SNAPSHOT.jar",
+          "size": 1482014,
+          "sha512": "0950d4b4e6a31aec7b3be4bea83fa70bed8d12188abf09ec3314961d4847ae2f0963d6fccb51ad9542c156fee1de23d61c09703539f78b231da1333016933c92",
+          "sha256": "28512a7677eac484f02cac254ee02381d00f76da88644a99de399fd5680b9b9e",
+          "sha1": "54cfc9e71f8f00f40c103de6844de50bf1179580",
+          "md5": "62fe237b80a8a0895f8da73692864f08"
+        }
+      ]
+    }
+  ]
+}

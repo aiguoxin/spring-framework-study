@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.HandlerResultHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:25" hostname="aiguoxindeMacBook-Pro.local" time="0.049">
+  <properties/>
+  <testcase name="noConcreteMediaType()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.001"/>
+  <testcase name="removeQualityParameter()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.001"/>
+  <testcase name="usesContentTypeResolver()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.001"/>
+  <testcase name="charsetFromAcceptHeader()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.001"/>
+  <testcase name="producibleMediaTypesRequestAttribute()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.043"/>
+  <testcase name="sortsByQuality()" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.001"/>
+  <system-out><![CDATA[14:07:25.460 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - Using 'application/octet-stream' given [*/*] and supported [*/*]
+14:07:25.461 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - Using 'text/plain' given [text/plain;q=0.5] and supported [application/json, text/plain]
+14:07:25.462 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - Using 'image/gif' given [image/gif] and supported [image/jpeg, image/gif, image/png]
+14:07:25.463 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - Using 'text/plain;charset=ISO-8859-1' given [text/plain;charset=ISO-8859-1] and supported [text/plain;charset=UTF-8]
+14:07:25.506 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - Using 'image/gif' given [*/*] and supported [image/gif]
+14:07:25.508 [Test worker] DEBUG o.s.w.r.r.HandlerResultHandlerTests$TestResultHandler - Using 'application/json' given [application/json, text/plain;q=0.5] and supported [text/plain, application/json]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

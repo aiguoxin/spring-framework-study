@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.samples.JsonContentTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:57" hostname="aiguoxindeMacBook-Pro.local" time="0.108">
+  <properties/>
+  <testcase name="jsonPathIsEqualTo()" classname="org.springframework.test.web.reactive.server.samples.JsonContentTests" time="0.013"/>
+  <testcase name="jsonContent()" classname="org.springframework.test.web.reactive.server.samples.JsonContentTests" time="0.004"/>
+  <testcase name="postJsonContent()" classname="org.springframework.test.web.reactive.server.samples.JsonContentTests" time="0.018"/>
+  <testcase name="jsonPathMatches()" classname="org.springframework.test.web.reactive.server.samples.JsonContentTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

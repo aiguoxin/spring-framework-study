@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:06" hostname="aiguoxindeMacBook-Pro.local" time="0.056">
+  <properties/>
+  <testcase name="partsBinding()" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.036"/>
+  <testcase name="partListBinding()" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.016"/>
+  <system-out><![CDATA[14:40:06.253 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:63352/parts
+14:40:06.253 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{firstPart=[class path resource [org/springframework/http/converter/logo.jpg]], secondPart=[secondValue]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:40:06.285 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:40:06.289 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:63352/partlist
+14:40:06.290 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{partList=[first value, second value, class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:40:06.305 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

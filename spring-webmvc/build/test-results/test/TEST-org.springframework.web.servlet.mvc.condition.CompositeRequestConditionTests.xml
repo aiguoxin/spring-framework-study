@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:07" hostname="aiguoxindeMacBook-Pro.local" time="0.057">
+  <properties/>
+  <testcase name="combineDifferentLength()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.043"/>
+  <testcase name="compareEmpty()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.0"/>
+  <testcase name="match()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.001"/>
+  <testcase name="combine()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.0"/>
+  <testcase name="compare()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.0"/>
+  <testcase name="compareDifferentLength()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.001"/>
+  <testcase name="combineEmpty()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.0"/>
+  <testcase name="matchEmpty()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.009"/>
+  <testcase name="noMatch()" classname="org.springframework.web.servlet.mvc.condition.CompositeRequestConditionTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

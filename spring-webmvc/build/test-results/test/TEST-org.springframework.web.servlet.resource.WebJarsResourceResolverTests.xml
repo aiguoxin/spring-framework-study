@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:43" hostname="aiguoxindeMacBook-Pro.local" time="2.386">
+  <properties/>
+  <testcase name="resolveResourceWebJar()" classname="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" time="0.402"/>
+  <testcase name="resolveUrlExistingNotInJarFile()" classname="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" time="0.281"/>
+  <testcase name="resolveUrlWebJarResource()" classname="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" time="0.269"/>
+  <testcase name="resolveResourceNotFound()" classname="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" time="0.357"/>
+  <testcase name="resolveUrlExisting()" classname="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" time="0.685"/>
+  <testcase name="resolveUrlWebJarResourceNotFound()" classname="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" time="0.195"/>
+  <testcase name="resolveResourceExisting()" classname="org.springframework.web.servlet.resource.WebJarsResourceResolverTests" time="0.196"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

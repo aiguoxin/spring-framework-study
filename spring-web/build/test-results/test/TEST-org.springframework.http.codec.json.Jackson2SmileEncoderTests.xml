@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2SmileEncoderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:40" hostname="aiguoxindeMacBook-Pro.local" time="0.07">
+  <properties/>
+  <testcase name="encode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.03"/>
+  <testcase name="encodeAsStream()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.021"/>
+  <testcase name="canEncode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeError()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.006"/>
+  <system-out><![CDATA[14:39:40.501 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+14:39:40.502 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+14:39:40.503 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

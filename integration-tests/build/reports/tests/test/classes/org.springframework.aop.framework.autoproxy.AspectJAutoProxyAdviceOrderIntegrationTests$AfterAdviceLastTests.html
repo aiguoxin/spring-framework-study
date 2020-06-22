@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AfterAdviceLastTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AfterAdviceLastTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.aop.framework.autoproxy.html">org.springframework.aop.framework.autoproxy</a> &gt; AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.006s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">afterAdviceIsInvokedLast(Echo, AfterAdviceLastAspect)</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:06:08.692 [Test worker] DEBUG o.s.t.c.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:06:08.692 [Test worker] DEBUG o.s.t.c.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:06:08.694 [Test worker] DEBUG o.s.t.c.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+14:06:08.696 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@5b6f633d declaringClass = 'org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+14:06:08.697 [Test worker] DEBUG o.s.t.c.s.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests]
+14:06:08.697 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests]: using defaults.
+14:06:08.697 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:06:08.698 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1624b000, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50b36ca5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@771f9bc3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57497896, org.springframework.test.context.transaction.TransactionalTestExecutionListener@645e76cf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2f43e8a5, org.springframework.test.context.event.EventPublishingTestExecutionListener@2489bf0d]
+14:06:08.698 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3898eec2 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS].
+14:06:08.698 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@3898eec2 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, testInstance = org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests@1f51dc89, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+14:06:08.699 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to load context from [MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+14:06:08.699 [Test worker] DEBUG o.s.t.c.s.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+14:06:08.699 [Test worker] DEBUG o.s.c.e.StandardEnvironment - Activating profiles []
+14:06:08.699 [Test worker] DEBUG o.s.t.c.s.AnnotationConfigContextLoader - Registering component classes: {class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}
+14:06:08.712 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@76c979b9
+14:06:08.712 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:06:08.743 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:06:08.744 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+14:06:08.744 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:06:08.744 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:06:08.745 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+14:06:08.745 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+14:06:08.754 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastConfig'
+14:06:08.770 [Test worker] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: java.lang.Object org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastAspect.around(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+14:06:08.771 [Test worker] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: void org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastAspect.before()
+14:06:08.771 [Test worker] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: void org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastAspect.after()
+14:06:08.771 [Test worker] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: void org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastAspect.afterReturning()
+14:06:08.772 [Test worker] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: void org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastAspect.afterThrowing()
+14:06:08.788 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'echoAspect'
+14:06:08.793 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'echo'
+14:06:08.800 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext [1992915385] in cache under key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.800 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 37, missCount = 4]
+14:06:08.801 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.801 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 38, missCount = 4]
+14:06:08.803 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test method: context [DefaultTestContext@3898eec2 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, testInstance = org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests@1f51dc89, testMethod = afterAdviceIsInvokedLast@AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS], method annotated with @DirtiesContext [false] with mode [null].
+14:06:08.803 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.803 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 39, missCount = 4]
+14:06:08.803 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.803 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 40, missCount = 4]
+14:06:08.804 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.804 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 41, missCount = 4]
+14:06:08.805 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.805 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 42, missCount = 4]
+14:06:08.807 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.807 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 43, missCount = 4]
+14:06:08.807 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.807 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 44, missCount = 4]
+14:06:08.807 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test method: context [DefaultTestContext@3898eec2 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, testInstance = org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastTests@1f51dc89, testMethod = afterAdviceIsInvokedLast@AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS], method annotated with @DirtiesContext [false] with mode [null].
+14:06:08.808 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1992915385] from cache with key [[MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:06:08.808 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@252ec327 size = 2, maxSize = 32, parentContextCount = 0, hitCount = 45, missCount = 4]
+14:06:08.808 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test class: context [DefaultTestContext@3898eec2 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2fe70f10 testClass = AspectJAutoProxyAdviceOrderIntegrationTests.AfterAdviceLastTests, locations = '{}', classes = '{class org.springframework.aop.framework.autoproxy.AspectJAutoProxyAdviceOrderIntegrationTests$AfterAdviceLastConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS].
+14:06:08.808 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@76c979b9, started on Mon Jun 22 14:06:08 CST 2020
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.5</a> at 2020-6-22 14:06:10</p>
+</div>
+</div>
+</body>
+</html>

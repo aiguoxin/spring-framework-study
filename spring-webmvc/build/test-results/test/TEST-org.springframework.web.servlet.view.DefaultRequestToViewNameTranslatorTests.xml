@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:51" hostname="aiguoxindeMacBook-Pro.local" time="0.039">
+  <properties/>
+  <testcase name="testGetViewNameLeavesLeadingSlashIfSoConfigured(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.001"/>
+  <testcase name="testGetViewNameLeavesLeadingSlashIfSoConfigured(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.001"/>
+  <testcase name="testGetViewNameWithPrefix(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.001"/>
+  <testcase name="testGetViewNameWithPrefix(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.014"/>
+  <testcase name="testGetViewNameWithSuffix(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithSuffix(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithCustomSeparator(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithCustomSeparator(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithNullPrefix(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithNullPrefix(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.001"/>
+  <testcase name="testGetViewNameWithNullSuffix(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.001"/>
+  <testcase name="testGetViewNameWithNullSuffix(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithNoExtension(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithNoExtension(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithSemicolonContent(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithSemicolonContent(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithDefaultConfiguration(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithDefaultConfiguration(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameLeavesTrailingSlashIfSoConfigured(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameLeavesTrailingSlashIfSoConfigured(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameLeavesExtensionIfSoConfigured(Function)[1]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameLeavesExtensionIfSoConfigured(Function)[2]" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

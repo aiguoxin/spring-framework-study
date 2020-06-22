@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:24" hostname="aiguoxindeMacBook-Pro.local" time="1.12">
+  <properties/>
+  <testcase name="resolveArgumentTypeVariableWithNonGenericConverter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.047"/>
+  <testcase name="jacksonJsonViewWithResponseBodyAndXmlMessageConverter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.194"/>
+  <testcase name="jacksonJsonViewWithResponseBodyAndJsonMessageConverter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.004"/>
+  <testcase name="handleReturnValueString()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.001"/>
+  <testcase name="jacksonSubType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.007"/>
+  <testcase name="jacksonJsonViewWithResponseEntityAndXmlMessageConverter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.086"/>
+  <testcase name="resolveHttpEntityArgumentWithJacksonJsonViewAndXmlMessageConverter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.506"/>
+  <testcase name="jacksonJsonViewWithResponseEntityAndJsonMessageConverter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.01"/>
+  <testcase name="resolveParameterizedWithTypeVariableArgument()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.036"/>
+  <testcase name="resolveArgumentWithJacksonJsonView()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.01"/>
+  <testcase name="handleReturnValueStringAcceptCharset()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.002"/>
+  <testcase name="resolveArgumentRequiredNoContent()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.001"/>
+  <testcase name="resolveArgumentWithJacksonJsonViewAndXmlMessageConverter()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.009"/>
+  <testcase name="resolveArgumentTypeVariable()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.029"/>
+  <testcase name="resolveArgumentClassString()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.006"/>
+  <testcase name="resolveHttpEntityArgumentWithJacksonJsonView()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.004"/>
+  <testcase name="jacksonTypeInfoList()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.006"/>
+  <testcase name="supportsReturnTypeRestController()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.0"/>
+  <testcase name="handleReturnValueCharSequence()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.002"/>
+  <testcase name="resolveArgumentTypeVariableWithGenericInterface()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.044"/>
+  <testcase name="resolveArgumentRequiredNoContentDefaultValue()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.005"/>
+  <testcase name="resolveArgumentTypeVariableWithGenericInterfaceAndSubclass()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.003"/>
+  <testcase name="supportsReturnTypeResponseBodyOnType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.0"/>
+  <testcase name="addContentDispositionHeader()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.005"/>
+  <testcase name="resolveArgumentParameterizedType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.016"/>
+  <testcase name="handleReturnValueSortByQuality()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.003"/>
+  <testcase name="handleReturnValueImage()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.002"/>
+  <testcase name="handleReturnValueWithInvalidReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.001"/>
+  <testcase name="jacksonSubTypeList()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.009"/>
+  <testcase name="resolveArgumentRawTypeFromParameterizedType()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.042"/>
+  <testcase name="resolveArgumentClassJson()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessorTests" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

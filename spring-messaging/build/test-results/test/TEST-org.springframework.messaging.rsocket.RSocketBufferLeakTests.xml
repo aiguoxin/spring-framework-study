@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.RSocketBufferLeakTests" tests="6" skipped="1" failures="0" errors="0" timestamp="2020-06-22T06:04:20" hostname="aiguoxindeMacBook-Pro.local" time="0.309">
+  <properties/>
+  <testcase name="assemblyTimeErrorForHandleAndReply()" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.038"/>
+  <testcase name="errorSignalWithExceptionHandler()" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.027"/>
+  <testcase name="echoChannel()" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.188"/>
+  <testcase name="subscriptionTimeErrorForHandleAndReply()" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.022"/>
+  <testcase name="ignoreInput()" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.02"/>
+  <testcase name="noSuchRouteOnChannelInteraction()" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[14:04:20.851 [reactor-tcp-nio-3] ERROR o.s.m.h.i.r.InvocableHelper - No exception handling method
+org.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in void org.springframework.messaging.rsocket.RSocketBufferLeakTests$ServerController.notDecodable(org.springframework.core.io.Resource): Cannot decode to [org.springframework.core.io.Resource]GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@4e2f9b31, rsocketResponse=MonoProcessor, lookupDestination=not-decodable, contentType=text/plain, rsocketFrameType=REQUEST_RESPONSE}]
+	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.decodeContent(PayloadMethodArgumentResolver.java:261) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:168) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.invocation.reactive.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:120) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:183) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.invocation.reactive.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:128) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.invocation.reactive.InvocableHelper.handleMessage(InvocableHelper.java:194) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:458) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:330) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler.handleMatch(MessageMappingMessageHandler.java:83) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:453) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.messaging.rsocket.annotation.support.MessagingRSocket.lambda$handleAndReply$4(MessagingRSocket.java:172) ~[spring-messaging-5.3.0-SNAPSHOT.jar:?]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4219) ~[reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207) ~[reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80) ~[reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at io.rsocket.core.RSocketResponder.handleRequestResponse(RSocketResponder.java:443) ~[rsocket-core-1.0.1.jar:?]
+	at io.rsocket.core.RSocketResponder.handleFrame(RSocketResponder.java:302) ~[rsocket-core-1.0.1.jar:?]
+	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:160) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:242) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.drainRegular(FluxGroupBy.java:554) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.drain(FluxGroupBy.java:630) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.onNext(FluxGroupBy.java:670) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxGroupBy$GroupByMain.onNext(FluxGroupBy.java:205) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxHandle$HandleSubscriber.onNext(FluxHandle.java:112) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:213) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:213) [reactor-core-3.4.0-SNAPSHOT.jar:3.4.0-SNAPSHOT]
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:219) [reactor-netty-1.0.0-SNAPSHOT.jar:1.0.0-SNAPSHOT]
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:353) [reactor-netty-1.0.0-SNAPSHOT.jar:1.0.0-SNAPSHOT]
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:368) [reactor-netty-1.0.0-SNAPSHOT.jar:1.0.0-SNAPSHOT]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:94) [reactor-netty-1.0.0-SNAPSHOT.jar:1.0.0-SNAPSHOT]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.50.Final.jar:4.1.50.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.50.Final.jar:4.1.50.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_73]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

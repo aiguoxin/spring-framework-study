@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.FormHttpMessageWriterTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:39" hostname="aiguoxindeMacBook-Pro.local" time="0.008">
+  <properties/>
+  <testcase name="writeForm()" classname="org.springframework.http.codec.FormHttpMessageWriterTests" time="0.007"/>
+  <testcase name="canWrite()" classname="org.springframework.http.codec.FormHttpMessageWriterTests" time="0.001"/>
+  <system-out><![CDATA[14:39:39.529 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [name 1, name 2, name 3] (content masked)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

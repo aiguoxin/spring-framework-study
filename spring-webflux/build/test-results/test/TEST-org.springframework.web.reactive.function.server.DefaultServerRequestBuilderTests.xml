@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.DefaultServerRequestBuilderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:25" hostname="aiguoxindeMacBook-Pro.local" time="0.122">
+  <properties/>
+  <testcase name="from()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestBuilderTests" time="0.122"/>
+  <system-out><![CDATA[14:07:25.347 [Test worker] DEBUG o.s.c.c.StringDecoder - [3f03f4a8] Decoded "baz"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

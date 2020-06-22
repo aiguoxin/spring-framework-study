@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" tests="212" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:25" hostname="aiguoxindeMacBook-Pro.local" time="13.927">
+  <properties/>
+  <testcase name="explicitAndEmptyPathsControllerMapping(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.069"/>
+  <testcase name="explicitAndEmptyPathsControllerMapping(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.059"/>
+  <testcase name="optionalParamPresent(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.083"/>
+  <testcase name="optionalParamPresent(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.037"/>
+  <testcase name="dataClassBindingWithValidationErrorAndConversionError(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.099"/>
+  <testcase name="dataClassBindingWithValidationErrorAndConversionError(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.062"/>
+  <testcase name="responseAsHttpHeaders(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.039"/>
+  <testcase name="responseAsHttpHeaders(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.048"/>
+  <testcase name="dataClassBindingWithOptional(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.04"/>
+  <testcase name="dataClassBindingWithOptional(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.043"/>
+  <testcase name="multipartFilesAsStringArray(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.056"/>
+  <testcase name="multipartFilesAsStringArray(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="bindingCookieValue(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.024"/>
+  <testcase name="bindingCookieValue(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.039"/>
+  <testcase name="unmappedPathMapping(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.064"/>
+  <testcase name="unmappedPathMapping(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.05"/>
+  <testcase name="equivalentMappingsWithSameMethodName(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.022"/>
+  <testcase name="equivalentMappingsWithSameMethodName(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.011"/>
+  <testcase name="requestMappingInterface(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.091"/>
+  <testcase name="requestMappingInterface(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.08"/>
+  <testcase name="customAnnotationController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.051"/>
+  <testcase name="customAnnotationController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.064"/>
+  <testcase name="requestHeaderMap(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.058"/>
+  <testcase name="requestHeaderMap(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.06"/>
+  <testcase name="redirectAttribute(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.054"/>
+  <testcase name="redirectAttribute(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.075"/>
+  <testcase name="emptyValueMapping(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.043"/>
+  <testcase name="emptyValueMapping(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.062"/>
+  <testcase name="typedCommandProvidingFormController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.241"/>
+  <testcase name="typedCommandProvidingFormController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.31"/>
+  <testcase name="dataClassBindingWithConversionError(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.082"/>
+  <testcase name="dataClassBindingWithConversionError(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.089"/>
+  <testcase name="bridgeMethodsWithMultipleInterfaces(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.034"/>
+  <testcase name="bridgeMethodsWithMultipleInterfaces(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.043"/>
+  <testcase name="adaptedHandleMethods2(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.028"/>
+  <testcase name="adaptedHandleMethods2(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.027"/>
+  <testcase name="adaptedHandleMethods3(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.049"/>
+  <testcase name="adaptedHandleMethods3(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.039"/>
+  <testcase name="errorThrownFromHandlerMethod(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.021"/>
+  <testcase name="errorThrownFromHandlerMethod(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.04"/>
+  <testcase name="responseBodyVoid(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.031"/>
+  <testcase name="responseBodyVoid(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.028"/>
+  <testcase name="responseBodyAsTextWithCssExtension(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.037"/>
+  <testcase name="responseBodyAsTextWithCssExtension(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="trailingSlash(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.041"/>
+  <testcase name="trailingSlash(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.056"/>
+  <testcase name="modelAndViewWithStatus(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.075"/>
+  <testcase name="modelAndViewWithStatus(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.031"/>
+  <testcase name="badRequestRequestBody(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.094"/>
+  <testcase name="badRequestRequestBody(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.046"/>
+  <testcase name="customMapEditor(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.049"/>
+  <testcase name="customMapEditor(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.059"/>
+  <testcase name="produces(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.044"/>
+  <testcase name="produces(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.048"/>
+  <testcase name="nullCommandController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.037"/>
+  <testcase name="nullCommandController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.054"/>
+  <testcase name="proxiedFormController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.092"/>
+  <testcase name="proxiedFormController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.038"/>
+  <testcase name="sessionAttributeExposure(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.027"/>
+  <testcase name="sessionAttributeExposure(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.053"/>
+  <testcase name="acceptHeaders(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="acceptHeaders(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.03"/>
+  <testcase name="modelFormController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.056"/>
+  <testcase name="modelFormController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.062"/>
+  <testcase name="optionalParamMissing(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="optionalParamMissing(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.028"/>
+  <testcase name="formController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.034"/>
+  <testcase name="formController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="dataClassBindingWithMissingParameter(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.062"/>
+  <testcase name="dataClassBindingWithMissingParameter(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.058"/>
+  <testcase name="parameterizedAnnotatedInterface(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.057"/>
+  <testcase name="parameterizedAnnotatedInterface(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.051"/>
+  <testcase name="responseBodyArgMismatch(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.256"/>
+  <testcase name="responseBodyArgMismatch(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.023"/>
+  <testcase name="consumes(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.031"/>
+  <testcase name="consumes(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.021"/>
+  <testcase name="requestParamMap(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.07"/>
+  <testcase name="requestParamMap(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.035"/>
+  <testcase name="parameterDispatchingController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.111"/>
+  <testcase name="parameterDispatchingController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.043"/>
+  <testcase name="multipartFileAsStringArray(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.035"/>
+  <testcase name="multipartFileAsStringArray(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="dataClassBinding(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.044"/>
+  <testcase name="dataClassBinding(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="sessionAttributeExposureWithInterface(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.09"/>
+  <testcase name="sessionAttributeExposureWithInterface(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.072"/>
+  <testcase name="httpOptions(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="httpOptions(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.04"/>
+  <testcase name="responseBodyAsHtml(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.03"/>
+  <testcase name="responseBodyAsHtml(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="defaultExpressionParameters(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.171"/>
+  <testcase name="defaultExpressionParameters(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.099"/>
+  <testcase name="testHeadersCondition(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.113"/>
+  <testcase name="testHeadersCondition(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.076"/>
+  <testcase name="regularParameterAsSingleString(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.066"/>
+  <testcase name="regularParameterAsSingleString(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="dataClassBindingWithFieldMarkerFallback(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.045"/>
+  <testcase name="dataClassBindingWithFieldMarkerFallback(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.055"/>
+  <testcase name="httpEntityWithContentType(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.407"/>
+  <testcase name="httpEntityWithContentType(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.048"/>
+  <testcase name="testMatchWithoutMethodLevelPath(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.037"/>
+  <testcase name="testMatchWithoutMethodLevelPath(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.102"/>
+  <testcase name="httpHead(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.058"/>
+  <testcase name="httpHead(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.048"/>
+  <testcase name="requestBodyResponseBody(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.099"/>
+  <testcase name="requestBodyResponseBody(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="responseBodyWildCardMediaType(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.067"/>
+  <testcase name="responseBodyWildCardMediaType(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.057"/>
+  <testcase name="httpHeadExplicit(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.046"/>
+  <testcase name="httpHeadExplicit(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.044"/>
+  <testcase name="multipartFileAsSingleString(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.035"/>
+  <testcase name="multipartFileAsSingleString(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.055"/>
+  <testcase name="pathOrdering(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.045"/>
+  <testcase name="pathOrdering(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.071"/>
+  <testcase name="overlappingMessageConvertersRequestBody(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.076"/>
+  <testcase name="overlappingMessageConvertersRequestBody(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.086"/>
+  <testcase name="responseStatus(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.052"/>
+  <testcase name="responseStatus(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.147"/>
+  <testcase name="typeNestedSetBinding(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.097"/>
+  <testcase name="typeNestedSetBinding(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.063"/>
+  <testcase name="httpPatch(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.079"/>
+  <testcase name="httpPatch(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.057"/>
+  <testcase name="requestMappingBaseClass(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.023"/>
+  <testcase name="requestMappingBaseClass(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.075"/>
+  <testcase name="commandProvidingFormControllerWithCustomEditor(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.34"/>
+  <testcase name="commandProvidingFormControllerWithCustomEditor(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.177"/>
+  <testcase name="responseBodyNoAcceptableMediaType(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.167"/>
+  <testcase name="responseBodyNoAcceptableMediaType(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.127"/>
+  <testcase name="relativeMethodPathDispatchingController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.142"/>
+  <testcase name="relativeMethodPathDispatchingController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.073"/>
+  <testcase name="dataClassBindingWithAdditionalSetter(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.126"/>
+  <testcase name="dataClassBindingWithAdditionalSetter(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.164"/>
+  <testcase name="modelAndViewWithStatusInExceptionHandler(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.072"/>
+  <testcase name="modelAndViewWithStatusInExceptionHandler(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.059"/>
+  <testcase name="httpEntity(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.06"/>
+  <testcase name="httpEntity(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.072"/>
+  <testcase name="lateBindingFormController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.079"/>
+  <testcase name="lateBindingFormController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.054"/>
+  <testcase name="unsupportedRequestBody(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.059"/>
+  <testcase name="unsupportedRequestBody(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.051"/>
+  <testcase name="defaultParameters(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.059"/>
+  <testcase name="defaultParameters(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.074"/>
+  <testcase name="specificBinderInitializingCommandProvidingFormController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.157"/>
+  <testcase name="specificBinderInitializingCommandProvidingFormController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.162"/>
+  <testcase name="methodNotAllowed(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.095"/>
+  <testcase name="methodNotAllowed(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.114"/>
+  <testcase name="binderInitializingCommandProvidingFormController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.196"/>
+  <testcase name="binderInitializingCommandProvidingFormController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.145"/>
+  <testcase name="requestMappingInterfaceWithProxy(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.228"/>
+  <testcase name="requestMappingInterfaceWithProxy(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.136"/>
+  <testcase name="restController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.083"/>
+  <testcase name="restController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.081"/>
+  <testcase name="relativePathDispatchingController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.064"/>
+  <testcase name="relativePathDispatchingController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.076"/>
+  <testcase name="dataClassBindingWithFieldDefault(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.03"/>
+  <testcase name="dataClassBindingWithFieldDefault(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.022"/>
+  <testcase name="mavResolver(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.045"/>
+  <testcase name="mavResolver(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.032"/>
+  <testcase name="dataClassBindingWithResult(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.118"/>
+  <testcase name="dataClassBindingWithResult(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.068"/>
+  <testcase name="responseBodyAsHtmlWithSuffixPresent(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.026"/>
+  <testcase name="responseBodyAsHtmlWithSuffixPresent(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.037"/>
+  <testcase name="ambiguousPathAndRequestMethod(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.02"/>
+  <testcase name="ambiguousPathAndRequestMethod(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.023"/>
+  <testcase name="typeConversionError(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.046"/>
+  <testcase name="typeConversionError(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.024"/>
+  <testcase name="parameterCsvAsStringArray(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.026"/>
+  <testcase name="parameterCsvAsStringArray(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.04"/>
+  <testcase name="regularParameterAsStringArray(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.019"/>
+  <testcase name="regularParameterAsStringArray(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.038"/>
+  <testcase name="adaptedHandleMethods(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.045"/>
+  <testcase name="adaptedHandleMethods(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.058"/>
+  <testcase name="ambiguousParams(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.051"/>
+  <testcase name="ambiguousParams(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.023"/>
+  <testcase name="dataClassBindingWithLocalDate(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.03"/>
+  <testcase name="dataClassBindingWithLocalDate(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.065"/>
+  <testcase name="emptyParameterListHandleMethod(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.048"/>
+  <testcase name="emptyParameterListHandleMethod(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.022"/>
+  <testcase name="dataClassBindingWithFieldDefaultFallback(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.024"/>
+  <testcase name="dataClassBindingWithFieldDefaultFallback(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.031"/>
+  <testcase name="dataClassBindingWithOptionalAndConversionError(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="dataClassBindingWithOptionalAndConversionError(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.037"/>
+  <testcase name="responseAsHttpHeadersNoHeader(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.031"/>
+  <testcase name="responseAsHttpHeadersNoHeader(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.049"/>
+  <testcase name="dataClassBindingWithFieldMarker(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.024"/>
+  <testcase name="dataClassBindingWithFieldMarker(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.024"/>
+  <testcase name="responseBodyAsHtmlWithProducesCondition(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.022"/>
+  <testcase name="responseBodyAsHtmlWithProducesCondition(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.044"/>
+  <testcase name="negatedContentTypeHeaders(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.026"/>
+  <testcase name="negatedContentTypeHeaders(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.03"/>
+  <testcase name="requiredParamMissing(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.019"/>
+  <testcase name="requiredParamMissing(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.019"/>
+  <testcase name="dataClassBindingWithOptionalParameter(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.046"/>
+  <testcase name="dataClassBindingWithOptionalParameter(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.043"/>
+  <testcase name="flashAttributesWithResponseEntity(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.02"/>
+  <testcase name="flashAttributesWithResponseEntity(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.031"/>
+  <testcase name="parameterizedAnnotatedInterfaceWithOverriddenMappingsInImpl(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.024"/>
+  <testcase name="parameterizedAnnotatedInterfaceWithOverriddenMappingsInImpl(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="contentTypeHeaders(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.063"/>
+  <testcase name="contentTypeHeaders(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.028"/>
+  <testcase name="prototypeController(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.066"/>
+  <testcase name="prototypeController(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.03"/>
+  <testcase name="responseBodyNoAcceptHeader(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.052"/>
+  <testcase name="responseBodyNoAcceptHeader(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.028"/>
+  <testcase name="bridgeMethods(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.042"/>
+  <testcase name="bridgeMethods(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.031"/>
+  <testcase name="pathVariableWithCustomConverter(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="pathVariableWithCustomConverter(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.029"/>
+  <testcase name="dataClassBindingWithValidationError(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.066"/>
+  <testcase name="dataClassBindingWithValidationError(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.114"/>
+  <testcase name="regularParametersAsStringArray(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.047"/>
+  <testcase name="regularParametersAsStringArray(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests" time="0.038"/>
+  <system-out><![CDATA[14:08:26.779 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /bogus-unmapped
+14:08:26.828 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /bogus-unmapped
+14:08:26.848 [Test worker] ERROR o.s.w.s.m.m.a.AbstractServletHandlerMethodTests$1 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'ChildController' method 
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse)
+to {GET [/child/test]}: There is already 'ChildController' bean method
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse, String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:929) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:897) ~[spring-context-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567) ~[spring-context-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests$1.createWebApplicationContext(AbstractServletHandlerMethodTests.java:111) ~[test/:?]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:203) ~[javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests.initDispatcherServlet(AbstractServletHandlerMethodTests.java:116) ~[test/:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests.initDispatcherServlet(AbstractServletHandlerMethodTests.java:70) ~[test/:?]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests.lambda$equivalentMappingsWithSameMethodName$20(ServletAnnotationControllerHandlerMethodTests.java:841) ~[test/:?]
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.16.1.jar:?]
+	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:750) ~[assertj-core-3.16.1.jar:?]
+	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1191) ~[assertj-core-3.16.1.jar:?]
+	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1063) ~[assertj-core-3.16.1.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests.equivalentMappingsWithSameMethodName(ServletAnnotationControllerHandlerMethodTests.java:841) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[junit-platform-commons-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:92) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:198) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:138) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$2(TestTemplateTestDescriptor.java:106) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270) ~[?:1.8.0_73]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_73]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:106) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:41) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[?:1.8.0_73]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[?:1.8.0_73]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132) [junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.5.jar:6.5]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.5.jar:6.5]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.5.jar:6.5]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.5.jar:6.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.5.jar:6.5]
+	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.5.jar:6.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.5.jar:6.5]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.5.jar:6.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_73]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_73]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.5.jar:6.5]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_73]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'ChildController' method 
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse)
+to {GET [/child/test]}: There is already 'ChildController' bean method
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse, String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:652) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:619) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:316) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:676) ~[?:1.8.0_73]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:284) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:256) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:215) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:203) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	... 166 more
+14:08:26.863 [Test worker] ERROR o.s.w.s.m.m.a.AbstractServletHandlerMethodTests$1 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'ChildController' method 
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse)
+to {GET [/child/test]}: There is already 'ChildController' bean method
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse, String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:929) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:897) ~[spring-context-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567) ~[spring-context-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests$1.createWebApplicationContext(AbstractServletHandlerMethodTests.java:111) ~[test/:?]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:203) ~[javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests.initDispatcherServlet(AbstractServletHandlerMethodTests.java:116) ~[test/:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests.initDispatcherServlet(AbstractServletHandlerMethodTests.java:70) ~[test/:?]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests.lambda$equivalentMappingsWithSameMethodName$20(ServletAnnotationControllerHandlerMethodTests.java:841) ~[test/:?]
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:62) ~[assertj-core-3.16.1.jar:?]
+	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:750) ~[assertj-core-3.16.1.jar:?]
+	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1191) ~[assertj-core-3.16.1.jar:?]
+	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1063) ~[assertj-core-3.16.1.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests.equivalentMappingsWithSameMethodName(ServletAnnotationControllerHandlerMethodTests.java:841) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[junit-platform-commons-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:92) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:198) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:138) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$2(TestTemplateTestDescriptor.java:106) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_73]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270) ~[?:1.8.0_73]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_73]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_73]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_73]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_73]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:106) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:41) ~[junit-jupiter-engine-5.6.2.jar:5.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[?:1.8.0_73]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[?:1.8.0_73]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132) [junit-platform-launcher-1.6.2.jar:1.6.2]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-6.5.jar:6.5]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) [gradle-testing-junit-platform-6.5.jar:6.5]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) [gradle-testing-junit-platform-6.5.jar:6.5]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) [gradle-testing-base-6.5.jar:6.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) [gradle-messaging-6.5.jar:6.5]
+	at com.sun.proxy.$Proxy2.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133) [gradle-testing-base-6.5.jar:6.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414) [gradle-messaging-6.5.jar:6.5]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64) [gradle-base-services-6.5.jar:6.5]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48) [gradle-base-services-6.5.jar:6.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_73]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_73]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) [gradle-base-services-6.5.jar:6.5]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_73]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'ChildController' method 
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse)
+to {GET [/child/test]}: There is already 'ChildController' bean method
+org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController#doGet(HttpServletRequest, HttpServletResponse, String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:652) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:619) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:316) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:286) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:676) ~[?:1.8.0_73]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:284) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:256) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:215) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:203) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.0-SNAPSHOT.jar:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-5.3.0-SNAPSHOT.jar:5.3.0-SNAPSHOT]
+	... 166 more
+14:08:28.302 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /method
+14:08:28.354 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /method
+14:08:28.999 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Could not read]
+14:08:29.046 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Could not read]
+14:08:29.199 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+14:08:29.250 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+14:08:29.599 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+14:08:29.629 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+14:08:30.392 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Could not unmarshal to [class org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$A]: Failed to convert value of type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$B' to required type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$A'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$B' to required type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$A']
+14:08:30.416 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Could not unmarshal to [class org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$A]: Failed to convert value of type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$B' to required type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$A'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$B' to required type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$A']
+14:08:30.447 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/xml' not supported]
+14:08:30.470 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/xml' not supported]
+14:08:31.163 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /a1.html
+14:08:32.396 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:08:32.498 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:08:34.661 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+14:08:34.788 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+14:08:34.936 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /herApp/surprise.do
+14:08:35.783 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/pdf' not supported]
+14:08:35.835 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/pdf' not supported]
+14:08:36.389 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:08:36.503 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:08:38.041 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "foo"]
+14:08:38.066 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "foo"]
+14:08:38.241 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /myPath3.do
+14:08:38.829 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /a3.html
+14:08:38.954 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+14:08:38.973 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+14:08:39.244 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/xml' not supported]
+14:08:39.273 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/xml' not supported]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

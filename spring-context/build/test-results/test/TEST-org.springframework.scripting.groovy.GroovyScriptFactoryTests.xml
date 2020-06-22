@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scripting.groovy.GroovyScriptFactoryTests" tests="38" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:05:52" hostname="aiguoxindeMacBook-Pro.local" time="2.59">
+  <properties/>
+  <testcase name="testAnonymousScriptDetected()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.269"/>
+  <testcase name="testWithTwoClassesDefinedInTheOneGroovyFile_CorrectClassFirst()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.014"/>
+  <testcase name="testStaticScript()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.128"/>
+  <testcase name="testRefreshableJsr223FromTag()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.076"/>
+  <testcase name="testJsr223FromTag()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.07"/>
+  <testcase name="testWithInlineScriptWithLeadingWhitespace()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.005"/>
+  <testcase name="testCtorWithNullScriptSourceLocator()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.0"/>
+  <testcase name="testStaticScriptWithInstanceUsingJsr223()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.052"/>
+  <testcase name="testInlineScriptFromTag()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.146"/>
+  <testcase name="testStaticScriptUsingJsr223()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.083"/>
+  <testcase name="testRefreshableFactoryBean()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.093"/>
+  <testcase name="testStaticPrototypeScript()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.086"/>
+  <testcase name="testResourceScriptFromTag()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.136"/>
+  <testcase name="testFactoryBean()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.099"/>
+  <testcase name="testStaticScriptWithInstance()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.102"/>
+  <testcase name="testPrototypeScriptFromTag()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.118"/>
+  <testcase name="testStaticScriptWithInlineDefinedInstance()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.093"/>
+  <testcase name="testStaticScriptWithInlineDefinedInstanceUsingJsr223()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.055"/>
+  <testcase name="testGetScriptedObjectDoesChokeOnNullScriptSourceBeingPassedIn()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.001"/>
+  <testcase name="testRefreshableFromTag()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.208"/>
+  <testcase name="testStaticPrototypeScriptUsingJsr223()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.095"/>
+  <testcase name="testCtorWithWhitespacedScriptSourceLocator()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.001"/>
+  <testcase name="testInlineJsr223FromTag()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.066"/>
+  <testcase name="testScriptedClassThatDoesNotHaveANoArgCtor()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.006"/>
+  <testcase name="testScriptCompilationException()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.088"/>
+  <testcase name="testCtorWithEmptyScriptSourceLocator()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.0"/>
+  <testcase name="testWithTwoClassesDefinedInTheOneGroovyFile_WrongClassFirst()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.039"/>
+  <testcase name="testJsr223FromTagWithInterface()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.058"/>
+  <testcase name="testInlineJsr223FromTagWithInterface()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.089"/>
+  <testcase name="testRefreshableFromTagProxyTargetClass()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.022"/>
+  <testcase name="testProxyTargetClassNotAllowedIfNotGroovy()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.027"/>
+  <testcase name="testCanPassInMoreThanOneProperty()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.102"/>
+  <testcase name="testMetaClassWithBeans()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.064"/>
+  <testcase name="testMetaClassWithXsd()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.034"/>
+  <testcase name="testNonStaticScript()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.024"/>
+  <testcase name="testNonStaticPrototypeScript()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.024"/>
+  <testcase name="testScriptedClassThatHasNoPublicNoArgCtor()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.007"/>
+  <testcase name="testGetScriptedObjectDoesNotChokeOnNullInterfacesBeingPassedIn()" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.004"/>
+  <system-out><![CDATA[customizing org.springframework.scripting.groovy.GroovyCalculator@51506f16...
+GroovyMessenger
+14:05:53.085 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messenger' defined in class path resource [org/springframework/scripting/groovy/lwspBadGroovyContext.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messenger': Could not determine scripted object type for GroovyScriptFactory: script source locator [
+    inline:
+			
+	class Bingo {
+
+		@Property String message;
+	}
+			]; nested exception is java.io.FileNotFoundException: class path resource [
+    inline:
+			
+	class Bingo {
+
+		@Property String message;
+	}
+			] cannot be opened because it does not exist
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@6a0ebeed...
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@734612d8...
+GroovyMessenger
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@50a8121...
+GroovyMessenger
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@1dcee08...
+GroovyMessenger
+14:05:54.616 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'broken' defined in class path resource [org/springframework/scripting/groovy/groovyBrokenContext.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'broken': Could not determine scripted object type for GroovyScriptFactory: script source locator [classpath:org/springframework/scripting/groovy/Broken.groovyb]; nested exception is org.springframework.scripting.ScriptCompilationException: Could not compile class path resource [org/springframework/scripting/groovy/Broken.groovyb]; nested exception is org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Broken: 9: Unexpected input: 'breakfast'; Expecting LPAREN @ line 9, column 5.
+   for breakfast
+       ^
+
+1 error
+
+14:05:54.656 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messenger' defined in class path resource [org/springframework/scripting/groovy/twoClassesWrongOneFirst.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messenger': Could not determine scripted object type for GroovyScriptFactory: script source locator [inline:
+	package org.springframework.scripting.groovy;
+
+	import org.springframework.scripting.Messenger;
+			
+	class Bingo {
+
+		@Property String message;
+	}
+
+	class GroovyMessenger implements Messenger {
+
+		@Property String message;
+	}
+			]; nested exception is org.springframework.scripting.ScriptCompilationException: Could not compile static script [scriptFactory.messenger]; nested exception is org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+scriptFactory.messenger: 8: unable to resolve class Property for annotation
+ @ line 8, column 3.
+   		@Property String message;
+     ^
+
+scriptFactory.messenger: 13: unable to resolve class Property for annotation
+ @ line 13, column 3.
+   		@Property String message;
+     ^
+
+2 errors
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

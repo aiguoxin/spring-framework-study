@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:03:18" hostname="aiguoxindeMacBook-Pro.local" time="0.085">
+  <properties/>
+  <testcase name="defaultMerge()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.02"/>
+  <testcase name="defaultAutowireCandidatesWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.011"/>
+  <testcase name="initMethod()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.019"/>
+  <testcase name="defaultMergeWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.003"/>
+  <testcase name="defaultLazyInit()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.01"/>
+  <testcase name="defaultAutowireCandidates()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.008"/>
+  <testcase name="defaultLazyInitWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

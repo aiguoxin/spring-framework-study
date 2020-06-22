@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:04" hostname="aiguoxindeMacBook-Pro.local" time="0.253">
+  <properties/>
+  <testcase name="defaultMapping(HandlerMapping, WebApplicationContext)[1]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.001"/>
+  <testcase name="defaultMapping(HandlerMapping, WebApplicationContext)[2]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.0"/>
+  <testcase name="actualPathMatching(SimpleUrlHandlerMapping, WebApplicationContext)[1]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.018"/>
+  <testcase name="actualPathMatching(SimpleUrlHandlerMapping, WebApplicationContext)[2]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.009"/>
+  <testcase name="mappingExposedInRequest(HandlerMapping, WebApplicationContext)[1]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.119"/>
+  <testcase name="mappingExposedInRequest(HandlerMapping, WebApplicationContext)[2]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.001"/>
+  <testcase name="requestsWithHandlers(HandlerMapping, WebApplicationContext)[1]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.001"/>
+  <testcase name="requestsWithHandlers(HandlerMapping, WebApplicationContext)[2]" classname="org.springframework.web.servlet.handler.PathMatchingUrlHandlerMappingTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

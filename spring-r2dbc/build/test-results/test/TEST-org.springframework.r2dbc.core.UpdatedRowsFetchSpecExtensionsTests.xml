@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.core.UpdatedRowsFetchSpecExtensionsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:51" hostname="aiguoxindeMacBook-Pro.local" time="0.114">
+  <properties/>
+  <testcase name="awaitRowsUpdatedWithValue()" classname="org.springframework.r2dbc.core.UpdatedRowsFetchSpecExtensionsTests" time="0.114"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-orm",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-jdbc",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-orm-5.3.0-SNAPSHOT.jar",
+          "url": "spring-orm-5.3.0-SNAPSHOT.jar",
+          "size": 202300,
+          "sha512": "6af7a52bc15cc63ea410764bc40b91a2faec8ffef9eed25b05fe7025916bf774b186d6a36de1788e8db361f4d5a7bad7246d4460e5cadb6067bb242ac05a6038",
+          "sha256": "5da92f765358f9d2ab47e2a3feadb4463d1f1d3a75d0a1b221a432b41bccf4a9",
+          "sha1": "153f4eaf084eead0a2302f0c2aaef57dfbe3477e",
+          "md5": "04faf2214f264224aeaeb19614aa2e98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-jdbc",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-orm-5.3.0-SNAPSHOT.jar",
+          "url": "spring-orm-5.3.0-SNAPSHOT.jar",
+          "size": 202300,
+          "sha512": "6af7a52bc15cc63ea410764bc40b91a2faec8ffef9eed25b05fe7025916bf774b186d6a36de1788e8db361f4d5a7bad7246d4460e5cadb6067bb242ac05a6038",
+          "sha256": "5da92f765358f9d2ab47e2a3feadb4463d1f1d3a75d0a1b221a432b41bccf4a9",
+          "sha1": "153f4eaf084eead0a2302f0c2aaef57dfbe3477e",
+          "md5": "04faf2214f264224aeaeb19614aa2e98"
+        }
+      ]
+    }
+  ]
+}

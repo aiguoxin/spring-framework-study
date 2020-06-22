@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.request.RequestAndSessionScopedBeanTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:08" hostname="aiguoxindeMacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="testPutBeanInSession()" classname="org.springframework.web.context.request.RequestAndSessionScopedBeanTests" time="0.008"/>
+  <testcase name="testPutBeanInRequest()" classname="org.springframework.web.context.request.RequestAndSessionScopedBeanTests" time="0.004"/>
+  <system-out><![CDATA[14:40:08.835 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+14:40:08.843 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

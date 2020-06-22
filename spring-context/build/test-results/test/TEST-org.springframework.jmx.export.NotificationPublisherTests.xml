@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.export.NotificationPublisherTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:05:44" hostname="aiguoxindeMacBook-Pro.local" time="0.037">
+  <properties/>
+  <testcase name="testSimpleBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.01"/>
+  <testcase name="testMBean()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.006"/>
+  <testcase name="testLazyInit()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.014"/>
+  <testcase name="testSimpleBeanRegisteredManually()" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

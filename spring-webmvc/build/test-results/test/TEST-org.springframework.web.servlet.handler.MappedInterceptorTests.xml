@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.handler.MappedInterceptorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:03" hostname="aiguoxindeMacBook-Pro.local" time="0.912">
+  <properties/>
+  <testcase name="noPatterns(Function)[1]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <testcase name="noPatterns(Function)[2]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="includePatternWithMatrixVariables(Function)[1]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <testcase name="includePatternWithMatrixVariables(Function)[2]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="includePattern(Function)[1]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <testcase name="includePattern(Function)[2]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="customPathMatcher(Function)[1]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <testcase name="customPathMatcher(Function)[2]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <testcase name="afterCompletion()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.687"/>
+  <testcase name="includeAndExcludePatterns(Function)[1]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="includeAndExcludePatterns(Function)[2]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.008"/>
+  <testcase name="postHandle()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.199"/>
+  <testcase name="excludePattern(Function)[1]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="excludePattern(Function)[2]" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <testcase name="preHandle()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

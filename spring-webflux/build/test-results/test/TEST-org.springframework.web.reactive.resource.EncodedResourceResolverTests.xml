@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.resource.EncodedResourceResolverTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:37" hostname="aiguoxindeMacBook-Pro.local" time="0.067">
+  <properties/>
+  <testcase name="resolveGzippedWithVersion(GzippedFiles)" classname="org.springframework.web.reactive.resource.EncodedResourceResolverTests" time="0.054"/>
+  <testcase name="resolveGzipped(GzippedFiles)" classname="org.springframework.web.reactive.resource.EncodedResourceResolverTests" time="0.008"/>
+  <testcase name="resolveWithNullRequest()" classname="org.springframework.web.reactive.resource.EncodedResourceResolverTests" time="0.001"/>
+  <testcase name="resolveFromCacheWithEncodingVariants(GzippedFiles)" classname="org.springframework.web.reactive.resource.EncodedResourceResolverTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

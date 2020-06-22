@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:27" hostname="aiguoxindeMacBook-Pro.local" time="1.04">
+  <properties/>
+  <testcase name="shouldTranslateIntegrityViolationException()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="1.026"/>
+  <testcase name="shouldTranslateBadSqlGrammarException()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.001"/>
+  <testcase name="shouldTranslateTransientResourceException()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.001"/>
+  <testcase name="messageGeneration()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.001"/>
+  <testcase name="messageGenerationNullMessage()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.002"/>
+  <testcase name="shouldTranslateTimeoutException()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.002"/>
+  <testcase name="shouldTranslatePermissionDeniedException()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.001"/>
+  <testcase name="shouldNotTranslateUnknownExceptions()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.001"/>
+  <testcase name="messageGenerationNullSQL()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.001"/>
+  <testcase name="shouldTranslateRollbackException()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.0"/>
+  <testcase name="shouldTranslateNonTransientResourceException()" classname="org.springframework.r2dbc.connection.ConnectionFactoryUtilsUnitTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

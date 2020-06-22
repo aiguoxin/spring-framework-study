@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:39" hostname="aiguoxindeMacBook-Pro.local" time="0.055">
+  <properties/>
+  <testcase name="singleMatch()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.014"/>
+  <testcase name="multipleMatches()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.005"/>
+  <testcase name="render()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.003"/>
+  <testcase name="noMatchBecauseNotSupported()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.001"/>
+  <testcase name="supportedMediaTypes()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.001"/>
+  <testcase name="multipleMatchesNotSupported()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.001"/>
+  <testcase name="noMatch()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.0"/>
+  <system-out><![CDATA[14:07:39.355 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [6fc2f014] Encoding [[bar2]]
+14:07:39.375 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [537a965d] Encoding [{foo1=[bar1], foo2=[bar2]}]
+14:07:39.381 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [324c5c24] Encoding [{foo=f, bar=b}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

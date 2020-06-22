@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:02" hostname="aiguoxindeMacBook-Pro.local" time="1.321">
+  <properties/>
+  <testcase name="basicAuthenticationInvalidCharacters()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.018"/>
+  <testcase name="basicAuthenticationUsernamePassword()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.147"/>
+  <testcase name="statusHandlerNoMatch()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.04"/>
+  <testcase name="andThen()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.002"/>
+  <testcase name="basicAuthenticationAttributes()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.002"/>
+  <testcase name="limitResponseSize()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="1.091"/>
+  <testcase name="apply()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.002"/>
+  <testcase name="basicAuthenticationAbsentAttributes()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.001"/>
+  <testcase name="statusHandlerMatch()" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.009"/>
+  <system-out><![CDATA[14:07:03.113 [Test worker] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

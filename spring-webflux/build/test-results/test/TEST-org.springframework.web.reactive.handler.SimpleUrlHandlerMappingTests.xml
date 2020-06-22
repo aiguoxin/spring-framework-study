@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:06" hostname="aiguoxindeMacBook-Pro.local" time="1.984">
+  <properties/>
+  <testcase name="handlerMappingJavaConfig()" classname="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" time="1.201"/>
+  <testcase name="handlerMappingXmlConfig()" classname="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" time="0.782"/>
+  <system-out><![CDATA[14:07:08.001 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [4e24a8e9] Mapped to java.lang.Object@381f934d
+14:07:08.002 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [245a2295] Mapped to java.lang.Object@3c031cba
+14:07:08.003 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [578b8833] Mapped to java.lang.Object@3c031cba
+14:07:08.003 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [13cafc74] Mapped to java.lang.Object@381f934d
+14:07:08.003 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [66712a12] Mapped to java.lang.Object@381f934d
+14:07:08.630 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/shortpattern/testing, /*/test.jpeg, /pathmatching??.html, /??path??matching.html, /welcome.html, /anotherTest*, /administrator/*/pathmatching.html, /confirmation.html, /outofpattern*yeah, /administrator/*/testlast*, /sho*, /reservation.html, /payment.html, /*pathmatchingTest.html, /*test*.jpeg, /administrator/another/bla.xml, /path??matching.html, /stillAnotherTestYeah, /show123.html, /bookseats.html, /administrator/testing/longer/*, /administrator/pathmatching.html] in 'mapping'
+14:07:08.756 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/shortpattern/testing, /*/test.jpeg, /pathmatching??.html, /??path??matching.html, /welcome.html, /anotherTest*, /administrator/*/pathmatching.html, /confirmation.html, /outofpattern*yeah, /administrator/*/testlast*, /sho*, /reservation.html, /payment.html, /*pathmatchingTest.html, /*test*.jpeg, /administrator/another/bla.xml, /path??matching.html, /stillAnotherTestYeah, /show123.html, /bookseats.html, /administrator/testing/longer/*, /administrator/pathmatching.html] in 'mapping'
+14:07:08.769 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [2fdb5ed9] Mapped to java.lang.Object@23af1bf2
+14:07:08.770 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [3fc424f] Mapped to java.lang.Object@23af1bf2
+14:07:08.771 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [2d8f1cc2] Mapped to java.lang.Object@23af1bf2
+14:07:08.771 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [36d08a83] Mapped to java.lang.Object@23af1bf2
+14:07:08.772 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [6e1aca9] Mapped to java.lang.Object@23af1bf2
+14:07:08.773 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [616bd5d1] Mapped to java.lang.Object@23af1bf2
+14:07:08.773 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [4757163e] Mapped to java.lang.Object@23af1bf2
+14:07:08.774 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [4a28884a] Mapped to java.lang.Object@23af1bf2
+14:07:08.777 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [35b191d7] Mapped to java.lang.Object@23af1bf2
+14:07:08.783 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [507ae69f] Mapped to java.lang.Object@23af1bf2
+14:07:08.784 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [697cfa6e] Mapped to java.lang.Object@23af1bf2
+14:07:08.784 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [2561cf48] Mapped to java.lang.Object@23af1bf2
+14:07:08.785 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [9ad9485] Mapped to java.lang.Object@23af1bf2
+14:07:08.785 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [45f119] Mapped to java.lang.Object@23af1bf2
+14:07:08.786 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [4e19d581] Mapped to java.lang.Object@23af1bf2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

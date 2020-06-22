@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-r2dbc",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "0.8.2.RELEASE"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-r2dbc-5.3.0-SNAPSHOT.jar",
+          "url": "spring-r2dbc-5.3.0-SNAPSHOT.jar",
+          "size": 135263,
+          "sha512": "2a8164cfb8eca08f2eff0d5e6be3ea1b6980164b334d8f2624c1ae2553456a98d0267c95cecbfbbd27437cd7a779a10cf869435d73a9a73ceed85ff69c6c0bc3",
+          "sha256": "e793d6114d93c507f7713277b77051a73a361895332c2f5f3d1fbfdbe2c792dc",
+          "sha1": "5be1513222151ff7308e9bb3364acff99f557cee",
+          "md5": "0563c86d24de6a626a89c182f86578b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "0.8.2.RELEASE"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-r2dbc-5.3.0-SNAPSHOT.jar",
+          "url": "spring-r2dbc-5.3.0-SNAPSHOT.jar",
+          "size": 135263,
+          "sha512": "2a8164cfb8eca08f2eff0d5e6be3ea1b6980164b334d8f2624c1ae2553456a98d0267c95cecbfbbd27437cd7a779a10cf869435d73a9a73ceed85ff69c6c0bc3",
+          "sha256": "e793d6114d93c507f7713277b77051a73a361895332c2f5f3d1fbfdbe2c792dc",
+          "sha1": "5be1513222151ff7308e9bb3364acff99f557cee",
+          "md5": "0563c86d24de6a626a89c182f86578b9"
+        }
+      ]
+    }
+  ]
+}

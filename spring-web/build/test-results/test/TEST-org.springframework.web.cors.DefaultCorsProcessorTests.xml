@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.cors.DefaultCorsProcessorTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:09" hostname="aiguoxindeMacBook-Pro.local" time="0.011">
+  <properties/>
+  <testcase name="sameOriginRequest()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestWithEmptyHeaders()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestValidRequestAndConfig()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestCredentialsWithOriginWildcard()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithoutRequestMethod()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestTestWithOriginButWithoutOtherHeaders()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllowedHeaders()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestCredentials()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllowsAllHeaders()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithRequestAndMethodHeaderButNoConfig()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestWrongAllowedMethod()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestMatchedAllowedMethod()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestCaseInsensitiveOriginMatch()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preventDuplicatedVaryHeaders()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestWithOriginHeaderAndAllowedOrigin()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestCredentials()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestCredentialsWithOriginWildcard()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="requestWithoutOriginHeader()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeaderAndNullConfig()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestExposedHeaders()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithNullConfig()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllOriginsAllowed()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeader()" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <system-out><![CDATA[14:40:09.845 [Test worker] DEBUG o.s.w.c.DefaultCorsProcessor - Reject: 'https://domain2.com' origin is not allowed
+14:40:09.845 [Test worker] DEBUG o.s.w.c.DefaultCorsProcessor - Reject: 'https://domain2.com' origin is not allowed
+14:40:09.847 [Test worker] DEBUG o.s.w.c.DefaultCorsProcessor - Reject: 'https://domain2.com' origin is not allowed
+14:40:09.847 [Test worker] DEBUG o.s.w.c.DefaultCorsProcessor - Reject: HTTP 'DELETE' is not allowed
+14:40:09.853 [Test worker] DEBUG o.s.w.c.DefaultCorsProcessor - Reject: 'https://domain2.com' origin is not allowed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

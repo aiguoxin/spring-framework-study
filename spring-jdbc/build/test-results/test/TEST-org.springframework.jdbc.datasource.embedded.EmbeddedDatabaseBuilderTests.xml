@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:01" hostname="aiguoxindeMacBook-Pro.local" time="3.297">
+  <properties/>
+  <testcase name="createSameSchemaTwiceWithGeneratedUniqueDbNames()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.041"/>
+  <testcase name="setTypeToDerbyAndIgnoreFailedDrops()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="2.639"/>
+  <testcase name="addScriptWithBogusFileName()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.013"/>
+  <testcase name="createSameSchemaTwiceWithoutUniqueDbNames()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.026"/>
+  <testcase name="addScripts()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.022"/>
+  <testcase name="addScriptsWithDefaultCommentPrefix()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.027"/>
+  <testcase name="addScriptsWithCustomBlockComments()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.023"/>
+  <testcase name="addScript()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.035"/>
+  <testcase name="addScriptsWithCustomCommentPrefix()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.024"/>
+  <testcase name="setTypeToH2()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.417"/>
+  <testcase name="addDefaultScripts()" classname="org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilderTests" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

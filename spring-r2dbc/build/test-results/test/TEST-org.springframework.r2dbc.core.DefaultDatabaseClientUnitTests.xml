@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:34" hostname="aiguoxindeMacBook-Pro.local" time="0.39">
+  <properties/>
+  <testcase name="shouldApplySimpleStatementFilterFunctions()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.127"/>
+  <testcase name="shouldApplyExecuteFunction()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.024"/>
+  <testcase name="executeShouldBindNamedValuesByIndex()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.007"/>
+  <testcase name="shouldApplyStatementFilterFunctions()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.033"/>
+  <testcase name="selectShouldEmitFirstValue()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.004"/>
+  <testcase name="executeShouldBindSettableValues()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.048"/>
+  <testcase name="selectOneShouldFailWithException()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.006"/>
+  <testcase name="shouldCloseConnectionOnlyOnce()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.002"/>
+  <testcase name="executeShouldBindNamedValuesFromIndexes()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.007"/>
+  <testcase name="executeShouldBindNamedNullValues()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.004"/>
+  <testcase name="executeShouldBindNullValues()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.004"/>
+  <testcase name="shouldApplyPreparedOperation()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.051"/>
+  <testcase name="executeShouldBindValues()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.033"/>
+  <testcase name="selectShouldEmitAllValues()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.004"/>
+  <testcase name="rowsUpdatedShouldEmitSingleValue()" classname="org.springframework.r2dbc.core.DefaultDatabaseClientUnitTests" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

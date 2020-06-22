@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.MediaTypeTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:55" hostname="aiguoxindeMacBook-Pro.local" time="0.025">
+  <properties/>
+  <testcase name="parseMediaTypeIllegalType()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaTypeIllegalCharset()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaTypesWithTrailingComma()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="compareTo()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="isConcrete()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="parseMediaTypeTypeRange()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseURLConnectionMediaType()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="testToString()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="slashInType()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaTypeIllegalParameterAttribute()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaType()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="sortBySpecificityUnrelated()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="sortByQualityUnrelated()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaTypeIllegalParameterValue()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="testWithConversionService()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaTypeIllegalSubtype()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="qualityComparator()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="slashInSubtype()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="parseMediaTypeEmptyParameterValue()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaTypeNoSubtypeSlash()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="sortBySpecificityRelated()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="parseMediaTypes()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="sortByQualityRelated()" classname="org.springframework.http.MediaTypeTests" time="0.003"/>
+  <testcase name="compareToConsistentWithEquals()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="getDefaultQualityValue()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="specificityComparator()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="parseMediaTypeNoSubtype()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="parseMediaTypeEmptyParameterAttribute()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <testcase name="compareToCaseSensitivity()" classname="org.springframework.http.MediaTypeTests" time="0.0"/>
+  <testcase name="parseMediaTypeIllegalQualityFactor()" classname="org.springframework.http.MediaTypeTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

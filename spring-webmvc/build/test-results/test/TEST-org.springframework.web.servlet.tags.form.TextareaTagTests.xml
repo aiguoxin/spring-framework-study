@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.tags.form.TextareaTagTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:50" hostname="aiguoxindeMacBook-Pro.local" time="0.032">
+  <properties/>
+  <testcase name="customBind()" classname="org.springframework.web.servlet.tags.form.TextareaTagTests" time="0.004"/>
+  <testcase name="simpleBind()" classname="org.springframework.web.servlet.tags.form.TextareaTagTests" time="0.005"/>
+  <testcase name="simpleBindWithDynamicAttributes()" classname="org.springframework.web.servlet.tags.form.TextareaTagTests" time="0.006"/>
+  <testcase name="simpleBindWithHtmlEscaping()" classname="org.springframework.web.servlet.tags.form.TextareaTagTests" time="0.003"/>
+  <testcase name="complexBind()" classname="org.springframework.web.servlet.tags.form.TextareaTagTests" time="0.005"/>
+  <testcase name="firstNewLine()" classname="org.springframework.web.servlet.tags.form.TextareaTagTests" time="0.006"/>
+  <system-out><![CDATA[<textarea id="name" name="name">
+Rob &quot;I Love Mangos&quot; Harrop</textarea>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

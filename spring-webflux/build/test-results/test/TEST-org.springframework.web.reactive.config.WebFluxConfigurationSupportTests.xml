@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:07" hostname="aiguoxindeMacBook-Pro.local" time="3.945">
+  <properties/>
+  <testcase name="resourceUrlProvider()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.201"/>
+  <testcase name="customPathMatchConfig()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.927"/>
+  <testcase name="requestMappingHandlerAdapter()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.437"/>
+  <testcase name="customMessageConverterConfig()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.141"/>
+  <testcase name="responseBodyResultHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.229"/>
+  <testcase name="viewResolutionResultHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="1.569"/>
+  <testcase name="requestMappingHandlerMapping()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.109"/>
+  <testcase name="resourceHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.184"/>
+  <testcase name="responseEntityResultHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.143"/>
+  <system-out><![CDATA[14:07:07.461 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:08.249 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+14:07:08.358 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:08.553 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:09.027 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:09.188 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:10.763 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:10.884 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:11.050 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/images/**] in 'resourceHandlerMapping'
+14:07:11.088 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:07:11.224 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:07" hostname="aiguoxindeMacBook-Pro.local" time="0.03">
+  <properties/>
+  <testcase name="resourcesViaDefaultServlet()" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.005"/>
+  <testcase name="tilesDefinitions()" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.014"/>
+  <testcase name="resourceRequest()" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

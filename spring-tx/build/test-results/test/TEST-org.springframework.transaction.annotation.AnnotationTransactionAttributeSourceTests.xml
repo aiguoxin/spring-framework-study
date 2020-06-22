@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:39" hostname="aiguoxindeMacBook-Pro.local" time="1.308">
+  <properties/>
+  <testcase name="transactionAttributeDeclaredOnClassWithEjb3()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.033"/>
+  <testcase name="transactionAttributeDeclaredOnClassMethodWithJta()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.014"/>
+  <testcase name="transactionAttributeDeclaredOnInterfaceWithEjb3()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.003"/>
+  <testcase name="customMethodAttributeDetected()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.046"/>
+  <testcase name="transactionAttributeDeclaredOnGroovyClass()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.006"/>
+  <testcase name="transactionAttributeDeclaredOnInterfaceWithJta()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="transactionAttributeDeclaredOnInterfaceMethodOnly()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="rollbackRulesAreApplied()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.002"/>
+  <testcase name="customClassAttributeWithReadOnlyOverrideDetected()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.003"/>
+  <testcase name="customMethodAttributeWithReadOnlyOverrideOnInterface()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.004"/>
+  <testcase name="transactionAttributeDeclaredOnClassWithJta()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="customClassAttributeWithReadOnlyOverrideOnInterface()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="nullOrEmpty()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.0"/>
+  <testcase name="transactionAttributeOnTargetClassMethodOverridesAttributeOnInterfaceMethod()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.004"/>
+  <testcase name="labelsAreApplied()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.005"/>
+  <testcase name="customClassAttributeDetected()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="defaultsToClassTransactionAttribute()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.052"/>
+  <testcase name="serializable()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="1.07"/>
+  <testcase name="transactionAttributeDeclaredOnClassMethod()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.002"/>
+  <testcase name="transactionAttributeDeclaredOnClassMethodWithEjb3()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="customMethodAttributeWithReadOnlyOverrideDetected()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="transactionAttributeDeclaredOnCglibClassMethod()" classname="org.springframework.transaction.annotation.AnnotationTransactionAttributeSourceTests" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

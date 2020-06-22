@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-test",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-test-5.3.0-SNAPSHOT.jar",
+          "url": "spring-test-5.3.0-SNAPSHOT.jar",
+          "size": 690759,
+          "sha512": "678067d1303448ff50233c4e8113884f854b6fa70f00ae0b0e4cdc9dd71e4ddaf951ad5e4fc31c166ef3f2cdccfe283851c34c75984c6f2e989bd75293080015",
+          "sha256": "ecd53550d696412049ccd99981f79b4b359eab1b3b99e94f994bd91abdb730c8",
+          "sha1": "d7dd5ad46d35efcd5c7f6870972baa94ae377f4c",
+          "md5": "72c04098e9bde9c1d9a47636efcac871"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-test-5.3.0-SNAPSHOT.jar",
+          "url": "spring-test-5.3.0-SNAPSHOT.jar",
+          "size": 690759,
+          "sha512": "678067d1303448ff50233c4e8113884f854b6fa70f00ae0b0e4cdc9dd71e4ddaf951ad5e4fc31c166ef3f2cdccfe283851c34c75984c6f2e989bd75293080015",
+          "sha256": "ecd53550d696412049ccd99981f79b4b359eab1b3b99e94f994bd91abdb730c8",
+          "sha1": "d7dd5ad46d35efcd5c7f6870972baa94ae377f4c",
+          "md5": "72c04098e9bde9c1d9a47636efcac871"
+        }
+      ]
+    }
+  ]
+}

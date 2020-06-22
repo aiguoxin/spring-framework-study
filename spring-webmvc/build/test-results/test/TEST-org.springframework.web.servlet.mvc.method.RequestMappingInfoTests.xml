@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:41" hostname="aiguoxindeMacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="preFlightRequest()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="matchParamsCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.006"/>
+  <testcase name="matchPatternsCondition(Builder)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="matchPatternsCondition(Builder)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="matchCustomCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="equalsMethod(Builder)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="equalsMethod(Builder)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="createEmpty(Builder)[1]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="createEmpty(Builder)[2]" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="compareToWithImpicitVsExplicitHttpMethodDeclaration()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.001"/>
+  <testcase name="matchProducesCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="matchHeadersCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="compareToWithHttpHeadMapping()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <testcase name="matchConsumesCondition()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

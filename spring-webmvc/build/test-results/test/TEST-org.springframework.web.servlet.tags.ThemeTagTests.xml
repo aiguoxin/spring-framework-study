@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.tags.ThemeTagTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:51" hostname="aiguoxindeMacBook-Pro.local" time="0.021">
+  <properties/>
+  <testcase name="requestContext()" classname="org.springframework.web.servlet.tags.ThemeTagTests" time="0.007"/>
+  <testcase name="themeTag()" classname="org.springframework.web.servlet.tags.ThemeTagTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

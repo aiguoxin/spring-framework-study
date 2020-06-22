@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:36" hostname="aiguoxindeMacBook-Pro.local" time="3.554">
+  <properties/>
+  <testcase name="uriComponentsContributor()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.232"/>
+  <testcase name="emptyHandlerMappings()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.199"/>
+  <testcase name="requestMappingHandlerAdapter()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.185"/>
+  <testcase name="mvcViewResolverWithOrderSet()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.174"/>
+  <testcase name="defaultRequestToViewNameConfiguration()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.296"/>
+  <testcase name="defaultFlashMapManagerConfiguration()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.224"/>
+  <testcase name="defaultLocaleResolverConfiguration()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.221"/>
+  <testcase name="customArgumentResolvers()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.302"/>
+  <testcase name="requestMappingHandlerMapping()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.395"/>
+  <testcase name="mvcViewResolverWithExistingResolver()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.254"/>
+  <testcase name="defaultThemeResolverfiguration()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.226"/>
+  <testcase name="beanNameHandlerMapping()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.173"/>
+  <testcase name="defaultPathMatchConfiguration()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.172"/>
+  <testcase name="handlerExceptionResolver()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.212"/>
+  <testcase name="mvcViewResolver()" classname="org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupportTests" time="0.243"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.mock.web.MockMultipartHttpServletRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:29" hostname="aiguoxindeMacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="mockMultiPartHttpServletRequestWithMixedData()" classname="org.springframework.mock.web.MockMultipartHttpServletRequestTests" time="0.017"/>
+  <testcase name="mockMultipartHttpServletRequestWithByteArray()" classname="org.springframework.mock.web.MockMultipartHttpServletRequestTests" time="0.001"/>
+  <testcase name="mockMultipartHttpServletRequestWithInputStream()" classname="org.springframework.mock.web.MockMultipartHttpServletRequestTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

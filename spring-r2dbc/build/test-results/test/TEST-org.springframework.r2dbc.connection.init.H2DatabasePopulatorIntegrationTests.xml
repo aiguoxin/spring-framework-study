@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:31" hostname="aiguoxindeMacBook-Pro.local" time="1.862">
+  <properties/>
+  <testcase name="scriptWithSingleLineCommentsAndFailedDrop()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="1.617"/>
+  <testcase name="scriptWithMultipleStatementsAndLongSeparator()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.018"/>
+  <testcase name="scriptWithMultipleStatements()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.019"/>
+  <testcase name="scriptWithStandardEscapedLiteral()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.053"/>
+  <testcase name="scriptWithMySqlEscapedLiteral()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.012"/>
+  <testcase name="shouldRunScript()" classname="org.springframework.r2dbc.connection.init.H2DatabasePopulatorIntegrationTests" time="0.099"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

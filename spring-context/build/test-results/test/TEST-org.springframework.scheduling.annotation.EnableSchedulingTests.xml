@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.annotation.EnableSchedulingTests" tests="12" skipped="9" failures="0" errors="0" timestamp="2020-06-22T06:05:45" hostname="aiguoxindeMacBook-Pro.local" time="0.034">
+  <properties/>
+  <testcase name="withAmbiguousTaskSchedulers_andSingleTask()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.02"/>
+  <testcase name="withTaskAddedVia_configureTasks()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withAmbiguousTaskSchedulers_andSingleTask_disambiguatedByScheduledTaskRegistrarBean()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withTriggerTask()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withExplicitScheduler()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withExplicitScheduledTaskRegistrar()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withFixedRateTask()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withSubclass()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withAmbiguousTaskSchedulers_andSingleTask_disambiguatedBySchedulerNameAttribute()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="withExplicitSchedulerAmbiguity_andSchedulingEnabled()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.007"/>
+  <testcase name="withAmbiguousTaskSchedulers_butNoActualTasks()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.006"/>
+  <testcase name="withInitiallyDelayedFixedRateTask()" classname="org.springframework.scheduling.annotation.EnableSchedulingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 22, 2020 2:05:45 PM ClientIntermediary close
+INFO: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+Jun 22, 2020 2:05:45 PM ClientIntermediary close
+INFO: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+]]></system-err>
+</testsuite>

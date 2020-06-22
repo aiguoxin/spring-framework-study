@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.ConcurrentBeanWrapperTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:03:08" hostname="aiguoxindeMacBook-Pro.local" time="1.088">
+  <properties/>
+  <testcase name="testSingleThread()" classname="org.springframework.beans.ConcurrentBeanWrapperTests" time="0.333"/>
+  <testcase name="testConcurrent()" classname="org.springframework.beans.ConcurrentBeanWrapperTests" time="0.754"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

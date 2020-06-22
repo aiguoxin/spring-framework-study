@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" tests="40" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:13" hostname="aiguoxindeMacBook-Pro.local" time="1.52">
+  <properties/>
+  <testcase name="fromMethodCallWithPathVariable()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.065"/>
+  <testcase name="fromMethodNameWithOptionalParam()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromControllerNotMapped()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromControllerWithPrefix()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.229"/>
+  <testcase name="fromMethodNameTypeLevelPathVariable()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromControllerSubResource()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.002"/>
+  <testcase name="fromMethodCallWithObjectReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.006"/>
+  <testcase name="usesFirstHostOfXForwardedHost()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.005"/>
+  <testcase name="fromMethodNameWithCustomBaseUrlViaStaticCall()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMethodNamePathVariable()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMappingNameWithPathWithoutLeadingSlash()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.229"/>
+  <testcase name="fromMappingNamePlain()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.16"/>
+  <testcase name="fromControllerUriTemplate()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.002"/>
+  <testcase name="fromMappingNameWithEncoding()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.202"/>
+  <testcase name="fromMethodNameTypeLevelPathVariableWithoutArgumentValue()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromMethodCallWithModelAndViewReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.021"/>
+  <testcase name="fromMethodCallOnSubclass()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.025"/>
+  <testcase name="fromControllerWithCustomBaseUrlViaStaticCall()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMethodNameWithCustomBaseUrlViaInstance()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.005"/>
+  <testcase name="fromMethodCallWithStringReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.004"/>
+  <testcase name="fromMethodNameWithStringReturnType()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMethodCallWithPathVariableAndRequestParams()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMethodCallPlain()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromMethodCallWithPathVariableAndMultiValueRequestParams()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.028"/>
+  <testcase name="fromMethodCallWithCustomBaseUrlViaStaticCall()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.002"/>
+  <testcase name="fromMappingNameWithCustomBaseUrl()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.251"/>
+  <testcase name="fromControllerWithCustomBaseUrlViaInstance()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="usesForwardedHostAndPortFromHeader()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromMethodNameTwoPathVariables()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.015"/>
+  <testcase name="fromControllerTwoTypeLevelMappings()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="usesForwardedHostAsHostIfHeaderIsSet()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromControllerPlain()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromMethodCallWithCustomBaseUrlViaInstance()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMethodNameWithPathVarAndRequestParam()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMethodNameWithBridgedMethod()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <testcase name="fromMethodNameNotMapped()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.0"/>
+  <testcase name="fromMethodCallWithTypeLevelUriVars()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.004"/>
+  <testcase name="fromMethodWithPrefix()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.195"/>
+  <testcase name="fromMethodNameWithMetaAnnotation()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.027"/>
+  <testcase name="fromMethodNameWithOptionalNamedParam()" classname="org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

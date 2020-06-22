@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" tests="54" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:06" hostname="aiguoxindeMacBook-Pro.local" time="8.109">
+  <properties/>
+  <testcase name="bodyToMonoVoidWithoutContentType(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="6.913"/>
+  <testcase name="bodyToMonoVoidWithoutContentType(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.041"/>
+  <testcase name="bodyToMonoVoidWithoutContentType(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.072"/>
+  <testcase name="bodyToMonoVoidWithoutContentType(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.068"/>
+  <testcase name="bodyToMonoVoidWithoutContentType(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.017"/>
+  <testcase name="bodyToMonoVoidWithoutContentType(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.016"/>
+  <testcase name="onStatusWithBodyNotConsumed(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.037"/>
+  <testcase name="onStatusWithBodyNotConsumed(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.014"/>
+  <testcase name="onStatusWithBodyNotConsumed(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.024"/>
+  <testcase name="onStatusWithBodyNotConsumed(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.019"/>
+  <testcase name="onStatusWithBodyNotConsumed(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.012"/>
+  <testcase name="onStatusWithBodyNotConsumed(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.012"/>
+  <testcase name="exchangeToBodilessEntity(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.028"/>
+  <testcase name="exchangeToBodilessEntity(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.055"/>
+  <testcase name="exchangeToBodilessEntity(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="exchangeToBodilessEntity(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="exchangeToBodilessEntity(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="exchangeToBodilessEntity(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="bodyToMonoVoid(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="bodyToMonoVoid(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.023"/>
+  <testcase name="bodyToMonoVoid(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.077"/>
+  <testcase name="bodyToMonoVoid(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.011"/>
+  <testcase name="bodyToMonoVoid(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="bodyToMonoVoid(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.021"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.018"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.011"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.011"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="releaseBody(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="releaseBody(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="releaseBody(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.066"/>
+  <testcase name="releaseBody(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.011"/>
+  <testcase name="releaseBody(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="releaseBody(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="onStatusWithBodyConsumed(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.016"/>
+  <testcase name="onStatusWithBodyConsumed(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithBodyConsumed(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.018"/>
+  <testcase name="onStatusWithBodyConsumed(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.085"/>
+  <testcase name="onStatusWithBodyConsumed(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithBodyConsumed(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.066"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.061"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.007"/>
+  <testcase name="onStatusWithImmediateErrorAndBodyNotConsumed(String, DataBufferFactory)[1]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithImmediateErrorAndBodyNotConsumed(String, DataBufferFactory)[2]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithImmediateErrorAndBodyNotConsumed(String, DataBufferFactory)[3]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithImmediateErrorAndBodyNotConsumed(String, DataBufferFactory)[4]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithImmediateErrorAndBodyNotConsumed(String, DataBufferFactory)[5]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithImmediateErrorAndBodyNotConsumed(String, DataBufferFactory)[6]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <system-out><![CDATA[14:07:12.600 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f247b5c] HTTP GET http://localhost:60065/sample
+14:07:13.375 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f247b5c] Response 202 ACCEPTED
+14:07:13.424 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3bfd29a] HTTP GET http://localhost:60074/sample
+14:07:13.460 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3bfd29a] Response 202 ACCEPTED
+14:07:13.467 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [10aa56cf] HTTP GET http://localhost:60076/sample
+14:07:13.520 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [10aa56cf] Response 202 ACCEPTED
+14:07:13.540 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [8215925] HTTP GET http://localhost:60080/sample
+14:07:13.549 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [8215925] Response 202 ACCEPTED
+14:07:13.608 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [61e7d607] HTTP GET http://localhost:60083/sample
+14:07:13.621 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [61e7d607] Response 202 ACCEPTED
+14:07:13.626 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [171ecb1c] HTTP GET http://localhost:60085/sample
+14:07:13.637 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [171ecb1c] Response 202 ACCEPTED
+14:07:13.645 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1632e8d4] HTTP GET http://localhost:60087/json
+14:07:13.663 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1632e8d4] Response 502 BAD_GATEWAY
+14:07:13.687 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [16c7ea62] HTTP GET http://localhost:60089/json
+14:07:13.692 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [16c7ea62] Response 502 BAD_GATEWAY
+14:07:13.700 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d7084f1] HTTP GET http://localhost:60091/json
+14:07:13.716 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d7084f1] Response 502 BAD_GATEWAY
+14:07:13.726 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6ba6ea18] HTTP GET http://localhost:60093/json
+14:07:13.737 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6ba6ea18] Response 502 BAD_GATEWAY
+14:07:13.745 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [38c5bd50] HTTP GET http://localhost:60095/json
+14:07:13.750 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [38c5bd50] Response 502 BAD_GATEWAY
+14:07:13.757 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [63d46252] HTTP GET http://localhost:60097/json
+14:07:13.763 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [63d46252] Response 502 BAD_GATEWAY
+14:07:13.771 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5dc37390] HTTP GET http://localhost:60100/
+14:07:13.776 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5dc37390] Response 201 CREATED
+14:07:13.834 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [577e9b8] HTTP GET http://localhost:60102/
+14:07:13.852 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [577e9b8] Response 201 CREATED
+14:07:13.856 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3d42ed90] HTTP GET http://localhost:60104/
+14:07:13.861 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3d42ed90] Response 201 CREATED
+14:07:13.866 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4298858d] HTTP GET http://localhost:60106/
+14:07:13.870 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4298858d] Response 201 CREATED
+14:07:13.874 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2c1c6bd6] HTTP GET http://localhost:60108/
+14:07:13.880 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2c1c6bd6] Response 201 CREATED
+14:07:13.884 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [24cd9985] HTTP GET http://localhost:60110/
+14:07:13.890 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [24cd9985] Response 201 CREATED
+14:07:13.894 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c4d4bfc] HTTP GET http://localhost:60112/json
+14:07:13.899 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c4d4bfc] Response 201 CREATED
+14:07:13.904 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a196de9] HTTP GET http://localhost:60114/json
+14:07:13.924 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a196de9] Response 201 CREATED
+14:07:13.931 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39f7411a] HTTP GET http://localhost:60116/json
+14:07:13.951 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39f7411a] Response 201 CREATED
+14:07:14.006 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [25f8a2] HTTP GET http://localhost:60119/json
+14:07:14.012 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [25f8a2] Response 201 CREATED
+14:07:14.017 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [50cc2597] HTTP GET http://localhost:60121/json
+14:07:14.023 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [50cc2597] Response 201 CREATED
+14:07:14.027 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [30243ef7] HTTP GET http://localhost:60123/json
+14:07:14.032 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [30243ef7] Response 201 CREATED
+14:07:14.039 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f5f744f] HTTP GET http://localhost:60125/json
+14:07:14.046 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f5f744f] Response 502 BAD_GATEWAY
+14:07:14.060 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [14f68f82] HTTP GET http://localhost:60128/json
+14:07:14.065 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [14f68f82] Response 502 BAD_GATEWAY
+14:07:14.071 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7c9ff0e0] HTTP GET http://localhost:60130/json
+14:07:14.075 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7c9ff0e0] Response 502 BAD_GATEWAY
+14:07:14.089 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7a85c663] HTTP GET http://localhost:60132/json
+14:07:14.093 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7a85c663] Response 502 BAD_GATEWAY
+14:07:14.101 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [679471d6] HTTP GET http://localhost:60134/json
+14:07:14.106 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [679471d6] Response 502 BAD_GATEWAY
+14:07:14.113 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3b69bded] HTTP GET http://localhost:60136/json
+14:07:14.118 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3b69bded] Response 502 BAD_GATEWAY
+14:07:14.125 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2f7b92e5] HTTP GET http://localhost:60138/
+14:07:14.129 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2f7b92e5] Response 200 OK
+14:07:14.132 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [688dfdf7] HTTP GET http://localhost:60140/
+14:07:14.138 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [688dfdf7] Response 200 OK
+14:07:14.145 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1266a65b] HTTP GET http://localhost:60142/
+14:07:14.204 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1266a65b] Response 200 OK
+14:07:14.209 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [344675b3] HTTP GET http://localhost:60144/
+14:07:14.216 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [344675b3] Response 200 OK
+14:07:14.221 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3dd92b95] HTTP GET http://localhost:60146/
+14:07:14.228 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3dd92b95] Response 200 OK
+14:07:14.232 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f17981] HTTP GET http://localhost:60148/
+14:07:14.238 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f17981] Response 200 OK
+14:07:14.245 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [69a9a295] HTTP GET http://localhost:60150/json
+14:07:14.253 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [69a9a295] Response 502 BAD_GATEWAY
+14:07:14.260 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1d2f2f23] HTTP GET http://localhost:60152/json
+14:07:14.265 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1d2f2f23] Response 502 BAD_GATEWAY
+14:07:14.270 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [eb6b56a] HTTP GET http://localhost:60154/json
+14:07:14.274 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [eb6b56a] Response 502 BAD_GATEWAY
+14:07:14.288 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b150edb] HTTP GET http://localhost:60156/json
+14:07:14.317 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b150edb] Response 502 BAD_GATEWAY
+14:07:14.374 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [40c0e1c0] HTTP GET http://localhost:60159/json
+14:07:14.378 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [40c0e1c0] Response 502 BAD_GATEWAY
+14:07:14.383 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4cc5edc4] HTTP GET http://localhost:60161/json
+14:07:14.388 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4cc5edc4] Response 502 BAD_GATEWAY
+14:07:14.394 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [24dbaa05] HTTP GET http://localhost:60163/json
+14:07:14.398 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [24dbaa05] Response 502 BAD_GATEWAY
+14:07:14.402 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [490f38ab] HTTP GET http://localhost:60165/json
+14:07:14.405 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [490f38ab] Response 502 BAD_GATEWAY
+14:07:14.412 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [62a28b40] HTTP GET http://localhost:60167/json
+14:07:14.417 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [62a28b40] Response 502 BAD_GATEWAY
+14:07:14.478 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7e7546ea] HTTP GET http://localhost:60169/json
+14:07:14.482 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7e7546ea] Response 502 BAD_GATEWAY
+14:07:14.540 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [72ddb34a] HTTP GET http://localhost:60171/json
+14:07:14.544 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [72ddb34a] Response 502 BAD_GATEWAY
+14:07:14.549 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [77b61389] HTTP GET http://localhost:60173/json
+14:07:14.552 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [77b61389] Response 502 BAD_GATEWAY
+14:07:14.557 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7c672eb3] HTTP GET http://localhost:60175/json
+14:07:14.561 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7c672eb3] Response 502 BAD_GATEWAY
+14:07:14.566 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [61b719f6] HTTP GET http://localhost:60177/json
+14:07:14.569 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [61b719f6] Response 502 BAD_GATEWAY
+14:07:14.575 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [488ca974] HTTP GET http://localhost:60179/json
+14:07:14.578 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [488ca974] Response 502 BAD_GATEWAY
+14:07:14.584 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5d0fe2a3] HTTP GET http://localhost:60181/json
+14:07:14.588 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5d0fe2a3] Response 502 BAD_GATEWAY
+14:07:14.594 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2edf6160] HTTP GET http://localhost:60183/json
+14:07:14.597 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2edf6160] Response 502 BAD_GATEWAY
+14:07:14.603 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [55e004de] HTTP GET http://localhost:60185/json
+14:07:14.606 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [55e004de] Response 502 BAD_GATEWAY
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:09:22" hostname="aiguoxindeMacBook-Pro.local" time="0.22">
+  <properties/>
+  <testcase name="dataClassBindingWithOptionalParameterAndOnlyMissingParameters(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.064"/>
+  <testcase name="dataClassBindingWithOptionalParameterAndOnlyMissingParameters(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.034"/>
+  <testcase name="dataClassBinding(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.033"/>
+  <testcase name="dataClassBinding(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.025"/>
+  <testcase name="dataClassBindingWithOptionalParameterAndAllParameters(boolean)[1]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.031"/>
+  <testcase name="dataClassBindingWithOptionalParameterAndAllParameters(boolean)[2]" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.BufferedImageHttpMessageConverterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:52" hostname="aiguoxindeMacBook-Pro.local" time="0.385">
+  <properties/>
+  <testcase name="canWrite()" classname="org.springframework.http.converter.BufferedImageHttpMessageConverterTests" time="0.037"/>
+  <testcase name="read()" classname="org.springframework.http.converter.BufferedImageHttpMessageConverterTests" time="0.044"/>
+  <testcase name="write()" classname="org.springframework.http.converter.BufferedImageHttpMessageConverterTests" time="0.189"/>
+  <testcase name="canRead()" classname="org.springframework.http.converter.BufferedImageHttpMessageConverterTests" time="0.001"/>
+  <testcase name="writeDefaultContentType()" classname="org.springframework.http.converter.BufferedImageHttpMessageConverterTests" time="0.114"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:10" hostname="aiguoxindeMacBook-Pro.local" time="0.004">
+  <properties/>
+  <testcase name="resolveSystemProperty()" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveContextPath()" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="supportsParameter()" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.001"/>
+  <system-out><![CDATA[14:40:10.142 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@317425a7
+14:40:10.144 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4c8e0ad5
+14:40:10.145 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7a6c8f15
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

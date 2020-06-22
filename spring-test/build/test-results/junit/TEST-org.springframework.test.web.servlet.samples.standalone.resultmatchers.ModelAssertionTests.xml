@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ModelAssertionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:13" hostname="aiguoxindeMacBook-Pro.local" time="0.132">
+  <properties/>
+  <testcase name="attributeHamcrestMatchers()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ModelAssertionTests" time="0.042"/>
+  <testcase name="attributeExists()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ModelAssertionTests" time="0.016"/>
+  <testcase name="hasNoErrors()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ModelAssertionTests" time="0.021"/>
+  <testcase name="attributeEqualTo()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ModelAssertionTests" time="0.024"/>
+  <testcase name="hasErrors()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ModelAssertionTests" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

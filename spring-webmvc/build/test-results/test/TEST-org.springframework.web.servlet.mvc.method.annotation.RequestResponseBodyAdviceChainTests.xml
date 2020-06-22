@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyAdviceChainTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:23" hostname="aiguoxindeMacBook-Pro.local" time="0.02">
+  <properties/>
+  <testcase name="controllerAdviceNotApplicable()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyAdviceChainTests" time="0.001"/>
+  <testcase name="controllerAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyAdviceChainTests" time="0.001"/>
+  <testcase name="responseBodyAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyAdviceChainTests" time="0.015"/>
+  <testcase name="requestBodyAdvice()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyAdviceChainTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

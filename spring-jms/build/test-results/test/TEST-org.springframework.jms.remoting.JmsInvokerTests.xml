@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.remoting.JmsInvokerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:04:02" hostname="aiguoxindeMacBook-Pro.local" time="0.079">
+  <properties/>
+  <testcase name="testJmsInvokerProxyFactoryBeanAndServiceExporterWithDynamicQueue()" classname="org.springframework.jms.remoting.JmsInvokerTests" time="0.063"/>
+  <testcase name="testJmsInvokerProxyFactoryBeanAndServiceExporter()" classname="org.springframework.jms.remoting.JmsInvokerTests" time="0.008"/>
+  <testcase name="receiveTimeoutExpired()" classname="org.springframework.jms.remoting.JmsInvokerTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

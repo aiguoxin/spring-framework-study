@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.HttpMessageConverterExtractorTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:40:07" hostname="aiguoxindeMacBook-Pro.local" time="0.091">
+  <properties/>
+  <testcase name="normal()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.004"/>
+  <testcase name="cannotRead()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.003"/>
+  <testcase name="converterThrowsHttpMessageNotReadableException()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.002"/>
+  <testcase name="converterThrowsIOException()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.003"/>
+  <testcase name="nullMessageBody()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.005"/>
+  <testcase name="constructorPreconditions()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.001"/>
+  <testcase name="notModified()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.004"/>
+  <testcase name="emptyMessageBody()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.003"/>
+  <testcase name="noContent()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.002"/>
+  <testcase name="generics()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.034"/>
+  <testcase name="zeroContentLength()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.005"/>
+  <testcase name="informational()" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.001"/>
+  <system-out><![CDATA[14:40:07.071 [Test worker] DEBUG o.s.w.c.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain"
+14:40:07.081 [Test worker] DEBUG o.s.w.c.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain"
+14:40:07.144 [Test worker] DEBUG o.s.w.c.HttpMessageConverterExtractor - Reading to [java.util.List<java.lang.String>]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

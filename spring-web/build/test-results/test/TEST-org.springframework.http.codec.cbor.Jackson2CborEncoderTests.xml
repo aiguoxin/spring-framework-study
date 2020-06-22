@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.cbor.Jackson2CborEncoderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:39:39" hostname="aiguoxindeMacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="encode()" classname="org.springframework.http.codec.cbor.Jackson2CborEncoderTests" time="0.004"/>
+  <testcase name="encodeStream()" classname="org.springframework.http.codec.cbor.Jackson2CborEncoderTests" time="0.0"/>
+  <testcase name="canEncode()" classname="org.springframework.http.codec.cbor.Jackson2CborEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode()" classname="org.springframework.http.codec.cbor.Jackson2CborEncoderTests" time="0.007"/>
+  <system-out><![CDATA[14:39:39.308 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

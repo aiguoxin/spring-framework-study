@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-instrument",
+    "version": "5.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2z47fehzazh67do7cbjxglb4yi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-instrument-5.3.0-SNAPSHOT.jar",
+          "url": "spring-instrument-5.3.0-SNAPSHOT.jar",
+          "size": 7455,
+          "sha512": "a97148c3c05d69c42ac2d366bd5ff7d26a81e21606e62ac12c80513c52159f1707cff9ab2be4caa9967573494a44b803f6e72fbfde84c1a3c122624645fd4146",
+          "sha256": "8cddb86bd18bf047149d8b651ff089a9665fd95bdb4a9f74f3908ad2268a9986",
+          "sha1": "e601f08ef1d48c254f29275775cda9a14f4ef054",
+          "md5": "c64c04153b1141b37b9971854ce9628e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-instrument-5.3.0-SNAPSHOT.jar",
+          "url": "spring-instrument-5.3.0-SNAPSHOT.jar",
+          "size": 7455,
+          "sha512": "a97148c3c05d69c42ac2d366bd5ff7d26a81e21606e62ac12c80513c52159f1707cff9ab2be4caa9967573494a44b803f6e72fbfde84c1a3c122624645fd4146",
+          "sha256": "8cddb86bd18bf047149d8b651ff089a9665fd95bdb4a9f74f3908ad2268a9986",
+          "sha1": "e601f08ef1d48c254f29275775cda9a14f4ef054",
+          "md5": "c64c04153b1141b37b9971854ce9628e"
+        }
+      ]
+    }
+  ]
+}

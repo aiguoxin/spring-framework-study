@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:08:15" hostname="aiguoxindeMacBook-Pro.local" time="0.49">
+  <properties/>
+  <testcase name="handleHttpEntityWithCacheControl()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.054"/>
+  <testcase name="handle()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.217"/>
+  <testcase name="handleInInterface()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.016"/>
+  <testcase name="handleAndValidateRequestBody()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.053"/>
+  <testcase name="handleAndValidateRequestPart()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.016"/>
+  <testcase name="handleAndCompleteSession()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.032"/>
+  <testcase name="handleRequestBody()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.042"/>
+  <testcase name="handleRequestPart()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.022"/>
+  <testcase name="handleHttpEntity()" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterIntegrationTests" time="0.034"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

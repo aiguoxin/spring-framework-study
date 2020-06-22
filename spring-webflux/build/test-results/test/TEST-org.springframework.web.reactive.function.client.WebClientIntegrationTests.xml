@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.WebClientIntegrationTests" tests="109" skipped="0" failures="0" errors="0" timestamp="2020-06-22T06:07:16" hostname="aiguoxindeMacBook-Pro.local" time="5.353">
+  <properties/>
+  <testcase name="retrieve404(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.302"/>
+  <testcase name="retrieve404(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.43"/>
+  <testcase name="retrieve404(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.336"/>
+  <testcase name="retrieve500(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.038"/>
+  <testcase name="retrieve500(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.049"/>
+  <testcase name="retrieve500(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="statusHandlerSuppressedErrorSignalWithEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.023"/>
+  <testcase name="statusHandlerSuppressedErrorSignalWithEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.017"/>
+  <testcase name="statusHandlerSuppressedErrorSignalWithEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.011"/>
+  <testcase name="exchangeForEmptyBodyAsVoidEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.034"/>
+  <testcase name="exchangeForEmptyBodyAsVoidEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.056"/>
+  <testcase name="exchangeForEmptyBodyAsVoidEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="exchangeForUnknownStatusCode(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.019"/>
+  <testcase name="exchangeForUnknownStatusCode(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.033"/>
+  <testcase name="exchangeForUnknownStatusCode(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.012"/>
+  <testcase name="statusHandlerRawStatus(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.011"/>
+  <testcase name="statusHandlerRawStatus(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.017"/>
+  <testcase name="statusHandlerRawStatus(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="statusHandlerSuppressedErrorSignal(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.026"/>
+  <testcase name="statusHandlerSuppressedErrorSignal(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.042"/>
+  <testcase name="statusHandlerSuppressedErrorSignal(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="retrieve500AsEntityList(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.014"/>
+  <testcase name="retrieve500AsEntityList(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.016"/>
+  <testcase name="retrieve500AsEntityList(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.008"/>
+  <testcase name="filter(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.042"/>
+  <testcase name="filter(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.013"/>
+  <testcase name="filter(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.032"/>
+  <testcase name="statusHandler(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.022"/>
+  <testcase name="statusHandler(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.071"/>
+  <testcase name="statusHandler(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.102"/>
+  <testcase name="retrieveJsonAsResponseEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.021"/>
+  <testcase name="retrieveJsonAsResponseEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.028"/>
+  <testcase name="retrieveJsonAsResponseEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="retrieveJsonArrayAsBodilessEntityShouldReleasesConnection()" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.062"/>
+  <testcase name="exchangeForJsonArrayAsResponseEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.582"/>
+  <testcase name="exchangeForJsonArrayAsResponseEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.015"/>
+  <testcase name="exchangeForJsonArrayAsResponseEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="exchangeForJsonAsBodilessEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="exchangeForJsonAsBodilessEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.014"/>
+  <testcase name="exchangeForJsonAsBodilessEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="exchangeFor404(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.014"/>
+  <testcase name="exchangeFor404(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.012"/>
+  <testcase name="exchangeFor404(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="retrieveJsonArrayAsResponseEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.078"/>
+  <testcase name="retrieveJsonArrayAsResponseEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.021"/>
+  <testcase name="retrieveJsonArrayAsResponseEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.011"/>
+  <testcase name="retrieve(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.012"/>
+  <testcase name="retrieve(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.025"/>
+  <testcase name="retrieve(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="statusHandlerParameterizedTypeReference(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.07"/>
+  <testcase name="statusHandlerParameterizedTypeReference(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.056"/>
+  <testcase name="statusHandlerParameterizedTypeReference(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="exchangeForPlainText(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="exchangeForPlainText(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.013"/>
+  <testcase name="exchangeForPlainText(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="retrieveJsonNull(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.066"/>
+  <testcase name="retrieveJsonNull(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.11"/>
+  <testcase name="retrieveJsonNull(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="retrieve404WithBody(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.014"/>
+  <testcase name="retrieve404WithBody(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.047"/>
+  <testcase name="retrieve404WithBody(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="statusHandlerSuppressedErrorSignalWithFlux(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.015"/>
+  <testcase name="statusHandlerSuppressedErrorSignalWithFlux(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.023"/>
+  <testcase name="statusHandlerSuppressedErrorSignalWithFlux(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.042"/>
+  <testcase name="retrieve500AsEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.019"/>
+  <testcase name="retrieve500AsEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.064"/>
+  <testcase name="retrieve500AsEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.012"/>
+  <testcase name="retrieveJson(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.014"/>
+  <testcase name="retrieveJson(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.032"/>
+  <testcase name="retrieveJson(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="postPojoAsJson(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.117"/>
+  <testcase name="postPojoAsJson(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.039"/>
+  <testcase name="postPojoAsJson(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.02"/>
+  <testcase name="exchangeWithRelativeUrl(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.003"/>
+  <testcase name="exchangeWithRelativeUrl(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.003"/>
+  <testcase name="exchangeWithRelativeUrl(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.002"/>
+  <testcase name="retrieveJsonWithParameterizedTypeReference(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.012"/>
+  <testcase name="retrieveJsonWithParameterizedTypeReference(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.02"/>
+  <testcase name="retrieveJsonWithParameterizedTypeReference(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="retrieveJsonAsBodilessEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.046"/>
+  <testcase name="retrieveJsonAsBodilessEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.063"/>
+  <testcase name="retrieveJsonAsBodilessEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.008"/>
+  <testcase name="exchangeResponseCookies(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.011"/>
+  <testcase name="exchangeResponseCookies(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.019"/>
+  <testcase name="exchangeResponseCookies(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="retrieve555UnknownStatus(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="retrieve555UnknownStatus(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.029"/>
+  <testcase name="retrieve555UnknownStatus(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="exchangeForJsonAsResponseEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="exchangeForJsonAsResponseEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.069"/>
+  <testcase name="exchangeForJsonAsResponseEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="retrieveJsonArray(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.008"/>
+  <testcase name="retrieveJsonArray(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.023"/>
+  <testcase name="retrieveJsonArray(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.031"/>
+  <testcase name="filterForErrorHandling(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.037"/>
+  <testcase name="filterForErrorHandling(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.04"/>
+  <testcase name="filterForErrorHandling(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.019"/>
+  <testcase name="statusHandlerWithErrorBodyTransformation(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.013"/>
+  <testcase name="statusHandlerWithErrorBodyTransformation(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.028"/>
+  <testcase name="statusHandlerWithErrorBodyTransformation(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="postLargeTextFile(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.136"/>
+  <testcase name="postLargeTextFile(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.23"/>
+  <testcase name="postLargeTextFile(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.071"/>
+  <testcase name="retrieve500AsBodilessEntity(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.064"/>
+  <testcase name="retrieve500AsBodilessEntity(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.083"/>
+  <testcase name="retrieve500AsBodilessEntity(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="retrieveJsonAsSerializedText(ClientHttpConnector)[1]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.008"/>
+  <testcase name="retrieveJsonAsSerializedText(ClientHttpConnector)[2]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.035"/>
+  <testcase name="retrieveJsonAsSerializedText(ClientHttpConnector)[3]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <system-out><![CDATA[14:07:17.051 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2a3bcf21] HTTP GET http://localhost:60203/greeting
+14:07:17.083 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2a3bcf21] Response 404 NOT_FOUND
+14:07:17.402 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3b58aa7b] HTTP GET http://localhost:60205/greeting
+14:07:17.520 [HttpClient@5cbd28a-144] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3b58aa7b] Response 404 NOT_FOUND
+14:07:17.588 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [53ff9fa4] HTTP GET http://localhost:60208/greeting
+14:07:17.822 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [53ff9fa4] Response 404 NOT_FOUND
+14:07:17.927 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [313da886] HTTP GET http://localhost:60212/greeting
+14:07:17.932 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [313da886] Response 500 INTERNAL_SERVER_ERROR
+14:07:17.973 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5cff6131] HTTP GET http://localhost:60214/greeting
+14:07:18.002 [HttpClient@5a42c84e-168] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5cff6131] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.015 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4589b01a] HTTP GET http://localhost:60217/greeting
+14:07:18.019 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4589b01a] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.099 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [223a474a] HTTP GET http://localhost:60219/
+14:07:18.105 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [223a474a] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.108 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [223a474a] Decoded "Internal Server error"
+14:07:18.121 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6c387687] HTTP GET http://localhost:60221/
+14:07:18.126 [HttpClient@73addf39-192] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6c387687] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.127 [HttpClient@73addf39-192] DEBUG o.s.c.c.StringDecoder - [6c387687] Decoded "Internal Server error"
+14:07:18.139 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [745197dd] HTTP GET http://localhost:60223/
+14:07:18.144 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [745197dd] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.145 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [745197dd] Decoded "Internal Server error"
+14:07:18.170 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39833711] HTTP GET http://localhost:60225/noContent
+14:07:18.195 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39833711] Response 200 OK
+14:07:18.207 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [f8e64c5] HTTP GET http://localhost:60227/noContent
+14:07:18.226 [HttpClient@5fb6a1fe-216] DEBUG o.s.w.r.f.c.ExchangeFunctions - [f8e64c5] Response 200 OK
+14:07:18.261 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1ddd30b8] HTTP GET http://localhost:60229/noContent
+14:07:18.264 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1ddd30b8] Response 200 OK
+14:07:18.286 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7289e4b2] HTTP GET http://localhost:60231/unknownPage
+14:07:18.291 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7289e4b2] Response 555
+14:07:18.306 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78747b33] HTTP GET http://localhost:60233/unknownPage
+14:07:18.327 [HttpClient@4ee068f1-240] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78747b33] Response 555
+14:07:18.336 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [473376d4] HTTP GET http://localhost:60235/unknownPage
+14:07:18.341 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [473376d4] Response 555
+14:07:18.354 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [543627d3] HTTP GET http://localhost:60237/greeting
+14:07:18.360 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [543627d3] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.374 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4b3e87a4] HTTP GET http://localhost:60239/greeting
+14:07:18.379 [HttpClient@4b262287-264] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4b3e87a4] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.386 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3fe449b5] HTTP GET http://localhost:60241/greeting
+14:07:18.390 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3fe449b5] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.400 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [638f3dba] HTTP GET http://localhost:60243/greeting
+14:07:18.420 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [638f3dba] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.420 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [638f3dba] Decoded "Internal Server error"
+14:07:18.456 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [32b26214] HTTP GET http://localhost:60245/greeting
+14:07:18.462 [HttpClient@46a4ac18-288] DEBUG o.s.w.r.f.c.ExchangeFunctions - [32b26214] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.464 [HttpClient@46a4ac18-288] DEBUG o.s.c.c.StringDecoder - [32b26214] Decoded "Internal Server error"
+14:07:18.470 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3602eb86] HTTP GET http://localhost:60247/greeting
+14:07:18.473 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3602eb86] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.474 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [3602eb86] Decoded "Internal Server error"
+14:07:18.485 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3850549d] HTTP GET http://localhost:60249/
+14:07:18.491 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3850549d] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.500 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6c2ae711] HTTP GET http://localhost:60251/
+14:07:18.507 [HttpClient@1568c981-312] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6c2ae711] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.514 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [272c91e9] HTTP GET http://localhost:60253/
+14:07:18.517 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [272c91e9] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.560 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e2ac1a5] HTTP GET http://localhost:60255/greeting
+14:07:18.565 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e2ac1a5] Response 200 OK
+14:07:18.566 [reactor-http-nio-3] DEBUG o.s.c.c.StringDecoder - [3e2ac1a5] Decoded "Hello Spring!"
+14:07:18.573 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [76e50b29] HTTP GET http://localhost:60257/greeting
+14:07:18.578 [HttpClient@8e96326-336] DEBUG o.s.w.r.f.c.ExchangeFunctions - [76e50b29] Response 200 OK
+14:07:18.579 [HttpClient@8e96326-336] DEBUG o.s.c.c.StringDecoder - [76e50b29] Decoded "Hello Spring!"
+14:07:18.610 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [54f67e70] HTTP GET http://localhost:60259/greeting
+14:07:18.613 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [54f67e70] Response 200 OK
+14:07:18.614 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [54f67e70] Decoded "Hello Spring!"
+14:07:18.622 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [73c42012] HTTP GET http://localhost:60261/greeting
+14:07:18.631 [reactor-http-nio-4] ERROR i.n.u.ResourceLeakDetector - LEAK: ByteBuf.release() was not called before it's garbage-collected. See https://netty.io/wiki/reference-counted-objects.html for more information.
+Recent access records: 
+#1:
+	Hint: 'reactor.right.reactiveBridge' will handle the message from this point.
+	io.netty.handler.codec.http.DefaultHttpContent.touch(DefaultHttpContent.java:86)
+	io.netty.handler.codec.http.DefaultLastHttpContent.touch(DefaultLastHttpContent.java:88)
+	io.netty.handler.codec.http.DefaultLastHttpContent.touch(DefaultLastHttpContent.java:28)
+	io.netty.channel.DefaultChannelPipeline.touch(DefaultChannelPipeline.java:116)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	java.lang.Thread.run(Thread.java:745)
+#2:
+	io.netty.handler.codec.http.DefaultHttpContent.release(DefaultHttpContent.java:92)
+	io.netty.util.ReferenceCountUtil.release(ReferenceCountUtil.java:88)
+	io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:90)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	java.lang.Thread.run(Thread.java:745)
+#3:
+	io.netty.handler.codec.http.DefaultHttpContent.retain(DefaultHttpContent.java:68)
+	io.netty.handler.codec.http.DefaultLastHttpContent.retain(DefaultLastHttpContent.java:76)
+	io.netty.handler.codec.http.DefaultLastHttpContent.retain(DefaultLastHttpContent.java:28)
+	io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:148)
+	io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:47)
+	io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	java.lang.Thread.run(Thread.java:745)
+#4:
+	Hint: 'reactor.left.httpDecompressor' will handle the message from this point.
+	io.netty.handler.codec.http.DefaultHttpContent.touch(DefaultHttpContent.java:86)
+	io.netty.handler.codec.http.DefaultLastHttpContent.touch(DefaultLastHttpContent.java:88)
+	io.netty.handler.codec.http.DefaultLastHttpContent.touch(DefaultLastHttpContent.java:28)
+	io.netty.channel.DefaultChannelPipeline.touch(DefaultChannelPipeline.java:116)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	java.lang.Thread.run(Thread.java:745)
+Created at:
+	io.netty.buffer.SimpleLeakAwareByteBuf.unwrappedDerived(SimpleLeakAwareByteBuf.java:143)
+	io.netty.buffer.SimpleLeakAwareByteBuf.readRetainedSlice(SimpleLeakAwareByteBuf.java:67)
+	io.netty.buffer.AdvancedLeakAwareByteBuf.readRetainedSlice(AdvancedLeakAwareByteBuf.java:107)
+	io.netty.handler.codec.http.HttpObjectDecoder.decode(HttpObjectDecoder.java:292)
+	io.netty.handler.codec.http.HttpClientCodec$Decoder.decode(HttpClientCodec.java:202)
+	io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	java.lang.Thread.run(Thread.java:745)
+14:07:18.639 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [73c42012] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.647 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [70235653] HTTP GET http://localhost:60263/greeting
+14:07:18.653 [HttpClient@4f76d2db-353] DEBUG o.s.w.r.f.c.ExchangeFunctions - [70235653] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.778 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [326e7bb3] HTTP GET http://localhost:60265/greeting
+14:07:18.796 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [326e7bb3] Response 500 INTERNAL_SERVER_ERROR
+14:07:18.845 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [28253b44] HTTP GET http://localhost:60267/json
+14:07:18.857 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [28253b44] Response 200 OK
+14:07:18.858 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [28253b44] Decoded "{"bar":"barbar","foo":"foofoo"}"
+14:07:18.871 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [37fca78] HTTP GET http://localhost:60269/json
+14:07:18.881 [HttpClient@7b4d32e8-384] DEBUG o.s.w.r.f.c.ExchangeFunctions - [37fca78] Response 200 OK
+14:07:18.882 [HttpClient@7b4d32e8-384] DEBUG o.s.c.c.StringDecoder - [37fca78] Decoded "{"bar":"barbar","foo":"foofoo"}"
+14:07:18.892 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [551930ad] HTTP GET http://localhost:60271/json
+14:07:18.895 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [551930ad] Response 200 OK
+14:07:18.896 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [551930ad] Decoded "{"bar":"barbar","foo":"foofoo"}"
+14:07:18.902 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e80b806] HTTP GET http://localhost:60273/json
+14:07:18.929 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e80b806] Response 200 OK
+14:07:18.938 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [27f335] HTTP GET http://localhost:60273/json
+14:07:18.956 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [27f335] Response 200 OK
+14:07:18.972 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39c5ec2b] HTTP GET http://localhost:60276/json
+14:07:18.999 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [39c5ec2b] Response 200 OK
+14:07:19.549 [reactor-http-nio-7] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [39c5ec2b] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:19.550 [reactor-http-nio-7] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [39c5ec2b] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:19.556 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [41d60249] HTTP GET http://localhost:60283/json
+14:07:19.564 [HttpClient@19124f54-410] DEBUG o.s.w.r.f.c.ExchangeFunctions - [41d60249] Response 200 OK
+14:07:19.565 [HttpClient@19124f54-410] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [41d60249] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:19.565 [HttpClient@19124f54-410] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [41d60249] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:19.574 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f9d00de] HTTP GET http://localhost:60285/json
+14:07:19.577 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f9d00de] Response 200 OK
+14:07:19.577 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [3f9d00de] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:19.577 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [3f9d00de] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:19.589 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5fa82908] HTTP GET http://localhost:60287/json
+14:07:19.594 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5fa82908] Response 200 OK
+14:07:19.601 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [29dd69ba] HTTP GET http://localhost:60290/json
+14:07:19.605 [HttpClient@2f4bcd32-434] DEBUG o.s.w.r.f.c.ExchangeFunctions - [29dd69ba] Response 200 OK
+14:07:19.612 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d22f5a7] HTTP GET http://localhost:60292/json
+14:07:19.615 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d22f5a7] Response 200 OK
+14:07:19.624 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3d9a267f] HTTP GET http://localhost:60294/greeting
+14:07:19.633 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3d9a267f] Response 404 NOT_FOUND
+14:07:19.642 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3570fd22] HTTP GET http://localhost:60296/greeting
+14:07:19.648 [HttpClient@58b38f1a-458] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3570fd22] Response 404 NOT_FOUND
+14:07:19.652 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [d595c2b] HTTP GET http://localhost:60298/greeting
+14:07:19.655 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [d595c2b] Response 404 NOT_FOUND
+14:07:19.764 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1febab27] HTTP GET http://localhost:60303/json
+14:07:19.806 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1febab27] Response 200 OK
+14:07:19.807 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [1febab27] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:19.807 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [1febab27] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:19.814 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a9a7c6a] HTTP GET http://localhost:60305/json
+14:07:19.821 [HttpClient@e3fe467-482] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a9a7c6a] Response 200 OK
+14:07:19.822 [HttpClient@e3fe467-482] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5a9a7c6a] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:19.822 [HttpClient@e3fe467-482] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5a9a7c6a] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:19.837 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e673ab6] HTTP GET http://localhost:60309/json
+14:07:19.840 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e673ab6] Response 200 OK
+14:07:19.841 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [2e673ab6] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:19.841 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [2e673ab6] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:19.852 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6088b7c1] HTTP GET http://localhost:60311/greeting
+14:07:19.859 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6088b7c1] Response 200 OK
+14:07:19.860 [reactor-http-nio-3] DEBUG o.s.c.c.StringDecoder - [6088b7c1] Decoded "Hello Spring!"
+14:07:19.866 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d789eac] HTTP GET http://localhost:60314/greeting
+14:07:19.878 [HttpClient@213f8e74-506] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d789eac] Response 200 OK
+14:07:19.880 [HttpClient@213f8e74-506] DEBUG o.s.c.c.StringDecoder - [4d789eac] Decoded "Hello Spring!"
+14:07:19.889 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f073515] HTTP GET http://localhost:60317/greeting
+14:07:19.895 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f073515] Response 200 OK
+14:07:19.895 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [1f073515] Decoded "Hello Spring!"
+14:07:19.907 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [74d1ce69] HTTP GET http://localhost:60319/greeting
+14:07:19.941 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [74d1ce69] Response 500 INTERNAL_SERVER_ERROR
+14:07:19.990 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7d11f94f] HTTP GET http://localhost:60321/greeting
+14:07:20.022 [HttpClient@5621353a-530] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7d11f94f] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.046 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7dda99a] HTTP GET http://localhost:60325/greeting
+14:07:20.049 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7dda99a] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.058 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d5544ea] HTTP GET http://localhost:60327/greeting
+14:07:20.064 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d5544ea] Response 200 OK
+14:07:20.064 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [2d5544ea] Decoded "Hello Spring!"
+14:07:20.069 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [18448dad] HTTP GET http://localhost:60330/greeting
+14:07:20.075 [HttpClient@2251b27a-554] DEBUG o.s.w.r.f.c.ExchangeFunctions - [18448dad] Response 200 OK
+14:07:20.077 [HttpClient@2251b27a-554] DEBUG o.s.c.c.StringDecoder - [18448dad] Decoded "Hello Spring!"
+14:07:20.086 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3684c0b2] HTTP GET http://localhost:60332/greeting
+14:07:20.089 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3684c0b2] Response 200 OK
+14:07:20.089 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [3684c0b2] Decoded "Hello Spring!"
+14:07:20.096 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [64c94c1d] HTTP GET http://localhost:60334/null
+14:07:20.102 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [64c94c1d] Response 200 OK
+14:07:20.138 [reactor-http-nio-6] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [64c94c1d] Decoded []
+14:07:20.245 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e6c1d75] HTTP GET http://localhost:60337/null
+14:07:20.259 [HttpClient@30f8ec65-578] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e6c1d75] Response 200 OK
+14:07:20.261 [HttpClient@30f8ec65-578] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5e6c1d75] Decoded []
+14:07:20.275 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6bdac024] HTTP GET http://localhost:60340/null
+14:07:20.278 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6bdac024] Response 200 OK
+14:07:20.278 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [6bdac024] Decoded []
+14:07:20.288 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6c6edc6f] HTTP GET http://localhost:60342/greeting
+14:07:20.293 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6c6edc6f] Response 404 NOT_FOUND
+14:07:20.309 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1203d9f1] HTTP GET http://localhost:60346/greeting
+14:07:20.336 [HttpClient@3eac8c1a-602] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1203d9f1] Response 404 NOT_FOUND
+14:07:20.352 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [35d2bb8c] HTTP GET http://localhost:60349/greeting
+14:07:20.356 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [35d2bb8c] Response 404 NOT_FOUND
+14:07:20.368 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7ff1da92] HTTP GET http://localhost:60351/greeting
+14:07:20.377 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7ff1da92] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.378 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [7ff1da92] Decoded "Internal Server error"
+14:07:20.388 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [85c056b] HTTP GET http://localhost:60353/greeting
+14:07:20.395 [HttpClient@95da56b-626] DEBUG o.s.w.r.f.c.ExchangeFunctions - [85c056b] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.397 [HttpClient@95da56b-626] DEBUG o.s.c.c.StringDecoder - [85c056b] Decoded "Internal Server error"
+14:07:20.438 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5176f689] HTTP GET http://localhost:60357/greeting
+14:07:20.443 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5176f689] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.444 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [5176f689] Decoded "Internal Server error"
+14:07:20.472 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [a02973c] HTTP GET http://localhost:60359/
+14:07:20.479 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [a02973c] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.501 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6bc19994] HTTP GET http://localhost:60361/
+14:07:20.513 [HttpClient@4c26c959-650] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6bc19994] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.580 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [f09f379] HTTP GET http://localhost:60363/
+14:07:20.585 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [f09f379] Response 500 INTERNAL_SERVER_ERROR
+14:07:20.595 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [df8bbb9] HTTP GET http://localhost:60365/pojo
+14:07:20.600 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [df8bbb9] Response 200 OK
+14:07:20.601 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [df8bbb9] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:20.618 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [69cf4f81] HTTP GET http://localhost:60368/pojo
+14:07:20.626 [HttpClient@55fff6e7-674] DEBUG o.s.w.r.f.c.ExchangeFunctions - [69cf4f81] Response 200 OK
+14:07:20.629 [HttpClient@55fff6e7-674] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [69cf4f81] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:20.647 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [45650de9] HTTP GET http://localhost:60371/pojo
+14:07:20.651 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [45650de9] Response 200 OK
+14:07:20.651 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [45650de9] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:20.717 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [31e1beaa] HTTP POST http://localhost:60373/pojo/capitalize
+14:07:20.755 [reactor-http-nio-3] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [31e1beaa] Encoding [Pojo[foo='foofoo', bar='barbar']]
+14:07:20.771 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [31e1beaa] Response 200 OK
+14:07:20.773 [reactor-http-nio-3] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [31e1beaa] Decoded [Pojo[foo='FOOFOO', bar='BARBAR']]
+14:07:20.783 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11b169bc] HTTP POST http://localhost:60377/pojo/capitalize
+14:07:20.783 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [11b169bc] Encoding [Pojo[foo='foofoo', bar='barbar']]
+14:07:20.804 [HttpClient@18ac5ac8-698] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11b169bc] Response 200 OK
+14:07:20.806 [HttpClient@18ac5ac8-698] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [11b169bc] Decoded [Pojo[foo='FOOFOO', bar='BARBAR']]
+14:07:20.817 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [340a4335] HTTP POST http://localhost:60382/pojo/capitalize
+14:07:20.817 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [340a4335] Encoding [Pojo[foo='foofoo', bar='barbar']]
+14:07:20.831 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [340a4335] Response 200 OK
+14:07:20.832 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [340a4335] Decoded [Pojo[foo='FOOFOO', bar='BARBAR']]
+14:07:20.845 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6e2c1f3f] HTTP GET /api/v4/groups/1
+14:07:20.848 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [59f75c3] HTTP GET /api/v4/groups/1
+14:07:20.851 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [32bbaa77] HTTP GET /api/v4/groups/1
+14:07:20.859 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6805f76] HTTP GET http://localhost:60387/json
+14:07:20.865 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6805f76] Response 200 OK
+14:07:20.867 [reactor-http-nio-4] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [6805f76] Decoded [org.springframework.web.reactive.function.client.WebClientIntegrationTests$ValueContainer@63876e1f]
+14:07:20.872 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3709b7d8] HTTP GET http://localhost:60389/json
+14:07:20.879 [HttpClient@3cc2c8aa-734] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3709b7d8] Response 200 OK
+14:07:20.881 [HttpClient@3cc2c8aa-734] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [3709b7d8] Decoded [org.springframework.web.reactive.function.client.WebClientIntegrationTests$ValueContainer@3662c676]
+14:07:20.891 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [31f68421] HTTP GET http://localhost:60391/json
+14:07:20.894 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [31f68421] Response 200 OK
+14:07:20.895 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [31f68421] Decoded [org.springframework.web.reactive.function.client.WebClientIntegrationTests$ValueContainer@7cbea473]
+14:07:20.904 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6836e9fc] HTTP GET http://localhost:60393/json
+14:07:20.944 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6836e9fc] Response 200 OK
+14:07:21.011 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [715f1ae] HTTP GET http://localhost:60399/json
+14:07:21.025 [HttpClient@28ef2e6-751] DEBUG o.s.w.r.f.c.ExchangeFunctions - [715f1ae] Response 200 OK
+14:07:21.044 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a73cd11] HTTP GET http://localhost:60401/json
+14:07:21.049 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5a73cd11] Response 200 OK
+14:07:21.059 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [27b166d0] HTTP GET http://localhost:60403/test
+14:07:21.063 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [27b166d0] Response 200 OK
+14:07:21.077 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e4bebb2] HTTP GET http://localhost:60405/test
+14:07:21.085 [HttpClient@52dda500-782] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3e4bebb2] Response 200 OK
+14:07:21.089 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2a16160d] HTTP GET http://localhost:60407/test
+14:07:21.092 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2a16160d] Response 200 OK
+14:07:21.101 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1ce1d3cf] HTTP GET http://localhost:60409/unknownPage
+14:07:21.105 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1ce1d3cf] Response 555
+14:07:21.113 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5c018b03] HTTP GET http://localhost:60412/unknownPage
+14:07:21.127 [HttpClient@33afa357-806] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5c018b03] Response 555
+14:07:21.140 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4b3c37f] HTTP GET http://localhost:60415/unknownPage
+14:07:21.142 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4b3c37f] Response 555
+14:07:21.151 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [10aa4f93] HTTP GET http://localhost:60417/json
+14:07:21.155 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [10aa4f93] Response 200 OK
+14:07:21.156 [reactor-http-nio-8] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [10aa4f93] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:21.200 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e748a4e] HTTP GET http://localhost:60419/json
+14:07:21.212 [HttpClient@6cafa836-830] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e748a4e] Response 200 OK
+14:07:21.215 [HttpClient@6cafa836-830] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5e748a4e] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:21.234 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [755018a0] HTTP GET http://localhost:60423/json
+14:07:21.239 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [755018a0] Response 200 OK
+14:07:21.240 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [755018a0] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:21.250 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4a8e001b] HTTP GET http://localhost:60425/pojos
+14:07:21.253 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4a8e001b] Response 200 OK
+14:07:21.254 [reactor-http-nio-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [4a8e001b] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:21.254 [reactor-http-nio-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [4a8e001b] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:21.259 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b357f59] HTTP GET http://localhost:60427/pojos
+14:07:21.268 [HttpClient@66d9f801-854] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b357f59] Response 200 OK
+14:07:21.269 [HttpClient@66d9f801-854] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [6b357f59] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:21.269 [HttpClient@66d9f801-854] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [6b357f59] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:21.281 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [276d61be] HTTP GET http://localhost:60429/pojos
+14:07:21.297 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [276d61be] Response 200 OK
+14:07:21.298 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [276d61be] Decoded [Pojo[foo='foo1', bar='bar1']]
+14:07:21.298 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [276d61be] Decoded [Pojo[foo='foo2', bar='bar2']]
+14:07:21.348 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [75768b5c] HTTP GET http://localhost:60434/greeting
+14:07:21.352 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [75768b5c] Response 200 OK
+14:07:21.352 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [75768b5c] Cancel signal (to close connection)
+14:07:21.353 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [323cd12a] HTTP GET http://localhost:60434/greeting
+14:07:21.358 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [323cd12a] Response 200 OK
+14:07:21.358 [reactor-http-nio-3] DEBUG o.s.c.c.StringDecoder - [323cd12a] Decoded "Hello Spring!"
+14:07:21.371 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [26c4cffa] HTTP GET http://localhost:60438/greeting
+14:07:21.380 [HttpClient@6b4141e2-878] DEBUG o.s.w.r.f.c.ExchangeFunctions - [26c4cffa] Response 200 OK
+14:07:21.381 [HttpClient@6b4141e2-878] DEBUG o.s.w.r.f.c.ExchangeFunctions - [26c4cffa] Cancel signal (to close connection)
+14:07:21.382 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f923e80] HTTP GET http://localhost:60438/greeting
+14:07:21.397 [HttpClient@6b4141e2-873] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f923e80] Response 200 OK
+14:07:21.399 [HttpClient@6b4141e2-873] DEBUG o.s.c.c.StringDecoder - [1f923e80] Decoded "Hello Spring!"
+14:07:21.403 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5023728c] HTTP GET http://localhost:60442/greeting
+14:07:21.406 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5023728c] Response 200 OK
+14:07:21.406 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5023728c] Cancel signal (to close connection)
+14:07:21.407 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [77dfff06] HTTP GET http://localhost:60442/greeting
+14:07:21.411 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [77dfff06] Response 200 OK
+14:07:21.412 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [77dfff06] Decoded "Hello Spring!"
+14:07:21.434 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d436114] HTTP GET http://localhost:60444/json
+14:07:21.439 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d436114] Response 500 INTERNAL_SERVER_ERROR
+14:07:21.440 [reactor-http-nio-4] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [4d436114] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:21.450 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [240fe3fc] HTTP GET http://localhost:60446/json
+14:07:21.459 [HttpClient@50f14d67-903] DEBUG o.s.w.r.f.c.ExchangeFunctions - [240fe3fc] Response 500 INTERNAL_SERVER_ERROR
+14:07:21.462 [HttpClient@50f14d67-903] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [240fe3fc] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:21.473 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [446fc792] HTTP GET http://localhost:60448/json
+14:07:21.476 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [446fc792] Response 500 INTERNAL_SERVER_ERROR
+14:07:21.477 [httpclient-dispatch-1] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [446fc792] Decoded [Pojo[foo='foofoo', bar='barbar']]
+14:07:21.491 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f12141e] HTTP POST http://localhost:60451/
+14:07:21.515 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.529 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.529 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.530 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.530 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.530 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.530 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.530 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.530 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.531 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.531 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.531 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.531 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.531 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.531 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.532 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.532 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.532 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.532 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.532 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.532 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.532 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.533 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.533 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.533 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.533 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.533 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.533 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.533 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.534 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.534 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.534 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.534 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.534 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.534 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.534 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.535 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.535 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.535 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.535 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.535 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.535 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.535 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.536 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.537 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.537 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.537 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.537 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.537 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.537 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.538 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.538 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.538 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.538 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.538 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.538 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.539 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.540 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.540 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.540 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.540 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.540 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.540 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.540 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.541 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.541 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.541 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.541 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.541 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.541 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.541 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.542 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.542 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.542 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.542 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.542 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.542 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.542 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.543 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.543 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.543 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.543 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.543 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.543 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.543 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.544 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.544 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.544 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.544 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.544 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.544 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.544 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.545 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.545 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.545 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.545 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.545 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.546 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.546 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.546 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.546 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.546 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.546 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.546 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.547 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.547 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.547 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.547 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.547 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.547 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.547 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.548 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.548 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.548 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.555 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.555 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.555 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.555 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.555 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.556 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.556 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.556 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.556 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.556 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.556 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.556 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.557 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.558 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.559 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.559 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.559 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.559 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.559 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.559 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.559 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.560 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.561 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.562 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.563 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.563 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.563 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.563 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.563 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.566 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.566 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.567 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.567 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.567 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.567 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.567 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.567 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.567 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.568 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.569 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.570 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.570 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.570 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.570 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.570 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.570 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.570 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.571 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.571 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.571 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.571 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.571 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.571 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.571 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 4096 bytes
+14:07:21.572 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3f12141e] Writing 2206 bytes
+14:07:21.576 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3f12141e] Response 200 OK
+14:07:21.637 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3548046a] HTTP POST http://localhost:60456/
+14:07:21.642 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.653 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.662 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.663 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.663 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.663 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.664 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.664 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.664 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.665 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.665 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.665 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.665 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.666 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.666 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.666 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.667 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.667 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.667 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.667 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.668 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.668 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.668 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.668 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.669 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.669 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.669 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.669 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.670 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.670 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.670 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.671 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.671 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.671 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.671 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.672 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.672 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.672 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.672 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.673 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.673 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.673 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.673 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.674 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.674 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.674 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.674 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.675 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.675 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.675 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.675 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.676 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.676 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.676 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.676 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.677 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.677 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.677 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.677 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.678 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.678 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.678 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.678 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.679 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.679 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.679 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.680 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.680 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.680 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.680 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.680 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.681 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.681 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.681 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.682 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.682 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.682 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.682 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.683 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.683 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.683 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.683 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.684 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.684 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.684 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.685 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.685 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.685 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.685 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.686 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.686 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.686 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.686 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.687 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.687 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.687 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.687 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.688 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.688 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.688 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.688 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.688 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.689 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.689 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.689 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.689 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.690 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.690 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.690 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.690 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.691 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.691 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.691 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.691 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.692 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.692 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.692 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.692 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.693 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.693 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.693 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.693 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.693 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.694 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.694 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.694 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.694 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.695 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.695 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.695 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.696 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.696 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.696 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.696 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.697 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.697 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.697 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.697 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.698 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.698 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.698 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.698 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.699 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.699 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.699 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.699 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.700 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.700 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.700 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.701 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.701 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.701 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.701 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.702 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.702 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.702 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.702 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.703 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.703 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.703 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.703 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.704 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.704 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.704 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.704 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.705 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.705 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.705 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.705 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.705 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.706 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.706 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.706 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.757 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.758 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.758 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.759 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.759 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.759 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.759 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.760 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.760 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.760 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.760 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.761 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.761 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.761 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.762 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.762 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.762 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.763 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.763 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.763 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.763 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.764 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.764 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.764 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.764 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.765 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.765 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.765 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.766 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.766 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.766 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.766 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.767 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.767 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.767 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.768 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.768 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.768 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.769 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.769 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.769 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.769 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.770 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.770 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.770 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.770 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.770 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.771 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.771 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.771 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.771 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.772 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.772 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.772 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.772 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.772 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.773 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.773 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.773 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 4096 bytes
+14:07:21.773 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3548046a] Writing 2206 bytes
+14:07:21.818 [HttpClient@590ae564-929] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3548046a] Response 200 OK
+14:07:21.864 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3a106e03] HTTP POST http://localhost:60463/
+14:07:21.867 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.872 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.872 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.872 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.872 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.873 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.873 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.873 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.873 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.873 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.873 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.873 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.874 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.874 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.874 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.874 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.874 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.874 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.875 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.875 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.875 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.875 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.875 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.875 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.876 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.876 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.876 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.876 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.876 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.876 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.877 [httpclient-dispatch-1] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.877 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.877 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.877 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.877 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.878 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.878 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.878 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.878 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.878 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.879 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.879 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.879 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.879 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.879 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.880 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.880 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.880 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.880 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.880 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.881 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.881 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.881 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.881 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.881 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.881 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.881 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.882 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.882 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.882 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.883 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.883 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.883 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.883 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.883 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.883 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.883 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.884 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.884 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.884 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.884 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.884 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.884 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.885 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.885 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.885 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.885 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.885 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.885 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.885 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.886 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.886 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.886 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.886 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.886 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.886 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.887 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.887 [Thread-305] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.887 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.887 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.887 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.887 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.888 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.888 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.888 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.888 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.888 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.889 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.889 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.889 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.889 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.889 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.890 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.890 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.890 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.890 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.890 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.891 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.891 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.891 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.891 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.891 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.892 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.892 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.892 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.893 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.893 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.893 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.893 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.894 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.894 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.894 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.894 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.894 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.895 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.895 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.895 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.895 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.896 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.896 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.896 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.896 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.896 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.897 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.897 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.897 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.897 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.898 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.898 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.898 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.898 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.899 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.899 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.900 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.900 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.901 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.901 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.901 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.901 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.902 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.902 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.902 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.902 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.902 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.903 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.903 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.903 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.903 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.903 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.904 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.904 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.904 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.904 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.904 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.905 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.905 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.905 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.905 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.906 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.906 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.906 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.906 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.907 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.907 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.907 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.908 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.908 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.908 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.909 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.909 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.909 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.910 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.910 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.910 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.910 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.911 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.911 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.911 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.912 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.912 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.912 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.912 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.913 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.913 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.913 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.914 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.914 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.915 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.915 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.915 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.916 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.916 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.916 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.917 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.917 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.917 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.918 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.918 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.918 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.919 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.919 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.919 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.919 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.920 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.920 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.921 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.921 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.921 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.921 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.921 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.922 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.922 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.922 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.922 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.922 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.923 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.923 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.923 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.923 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.923 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.924 [Thread-295] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.924 [Thread-296] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 4096 bytes
+14:07:21.924 [httpclient-dispatch-1] DEBUG o.s.c.c.DataBufferEncoder - [3a106e03] Writing 2206 bytes
+14:07:21.926 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3a106e03] Response 200 OK
+14:07:21.942 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4fad4f53] HTTP GET http://localhost:60465/
+14:07:21.994 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4fad4f53] Response 500 INTERNAL_SERVER_ERROR
+14:07:22.053 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d04e717] HTTP GET http://localhost:60467/
+14:07:22.066 [HttpClient@7916905e-954] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2d04e717] Response 500 INTERNAL_SERVER_ERROR
+14:07:22.089 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7fb48514] HTTP GET http://localhost:60469/
+14:07:22.091 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7fb48514] Response 500 INTERNAL_SERVER_ERROR
+14:07:22.101 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5d375d2d] HTTP GET http://localhost:60471/json
+14:07:22.104 [reactor-http-nio-7] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5d375d2d] Response 200 OK
+14:07:22.105 [reactor-http-nio-7] DEBUG o.s.c.c.StringDecoder - [5d375d2d] Decoded "{"bar":"barbar","foo":"foofoo"}"
+14:07:22.111 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [718ebb2] HTTP GET http://localhost:60473/json
+14:07:22.120 [HttpClient@3b60353f-978] DEBUG o.s.w.r.f.c.ExchangeFunctions - [718ebb2] Response 200 OK
+14:07:22.122 [HttpClient@3b60353f-978] DEBUG o.s.c.c.StringDecoder - [718ebb2] Decoded "{"bar":"barbar","foo":"foofoo"}"
+14:07:22.146 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5d1708f4] HTTP GET http://localhost:60475/json
+14:07:22.149 [httpclient-dispatch-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5d1708f4] Response 200 OK
+14:07:22.149 [httpclient-dispatch-1] DEBUG o.s.c.c.StringDecoder - [5d1708f4] Decoded "{"bar":"barbar","foo":"foofoo"}"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
