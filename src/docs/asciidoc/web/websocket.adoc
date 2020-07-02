@@ -1849,7 +1849,7 @@ its own implementation of `WebSocketMessageBrokerConfigurer` that is marked with
 
 
 [[websocket-stomp-user-destination]]
-=== User Destinations
+=== com.agx.User Destinations
 
 An application can send messages that target a specific user, and Spring's STOMP support
 recognizes destinations prefixed with `/user/` for this purpose.

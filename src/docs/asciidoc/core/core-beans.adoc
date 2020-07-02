@@ -110,7 +110,7 @@ For information about using other forms of metadata with the Spring container, s
 * <<beans-annotation-config,Annotation-based configuration>>: Spring 2.5 introduced
   support for annotation-based configuration metadata.
 * <<beans-java, Java-based configuration>>: Starting with Spring 3.0, many features
-  provided by the Spring JavaConfig project became part of the core Spring Framework.
+  provided by the Spring com.agx.JavaConfig project became part of the core Spring Framework.
   Thus, you can define beans external to your application classes by using Java rather
   than XML files. To use these new features, see the
   https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Configuration.html[`@Configuration`],
@@ -4658,7 +4658,7 @@ while others argue that annotated classes are no longer POJOs and, furthermore, 
 configuration becomes decentralized and harder to control.
 
 No matter the choice, Spring can accommodate both styles and even mix them together.
-It is worth pointing out that through its <<beans-java, JavaConfig>> option, Spring lets
+It is worth pointing out that through its <<beans-java, com.agx.JavaConfig>> option, Spring lets
 annotations be used in a non-invasive way, without touching the target components
 source code and that, in terms of tooling, all configuration styles are supported by the
 https://spring.io/tools[Spring Tools for Eclipse].
@@ -6133,7 +6133,7 @@ example shows:
 	}
 ----
 
-NOTE: When configuring a `PropertySourcesPlaceholderConfigurer` using JavaConfig, the
+NOTE: When configuring a `PropertySourcesPlaceholderConfigurer` using com.agx.JavaConfig, the
 `@Bean` method must be `static`.
 
 Using the above configuration ensures Spring initialization failure if any `${}`
@@ -6334,7 +6334,7 @@ the container.
 
 [NOTE]
 ====
-Starting with Spring 3.0, many features provided by the Spring JavaConfig project are
+Starting with Spring 3.0, many features provided by the Spring com.agx.JavaConfig project are
 part of the core Spring Framework. This allows you to define beans using Java rather
 than using the traditional XML files. Take a look at the `@Configuration`, `@Bean`,
 `@Import`, and `@DependsOn` annotations for examples of how to use these new features.

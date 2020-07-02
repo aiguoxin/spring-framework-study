@@ -921,7 +921,7 @@ binding. It puts the command object in the `PageContext` so that the command obj
 be accessed by inner tags. All the other tags in this library are nested tags of the
 `form` tag.
 
-Assume that we have a domain object called `User`. It is a JavaBean with properties
+Assume that we have a domain object called `com.agx.User`. It is a JavaBean with properties
 such as `firstName` and `lastName`. We can use it as the form-backing object of our
 form controller, which returns `form.jsp`. The following example shows what `form.jsp` could
 look like:
@@ -1014,7 +1014,7 @@ HTML5-specific types, such as `email`, `tel`, `date`, and others.
 
 This tag renders an HTML `input` tag with the `type` set to `checkbox`.
 
-Assume that our `User` has preferences such as newsletter subscription and a list of
+Assume that our `com.agx.User` has preferences such as newsletter subscription and a list of
 hobbies. The following example shows the `Preferences` class:
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
@@ -1247,7 +1247,7 @@ password value to be shown, you can set the value of the `showPassword` attribut
 This tag renders an HTML 'select' element. It supports data binding to the selected
 option as well as the use of nested `option` and `options` tags.
 
-Assume that a `User` has a list of skills. The corresponding HTML could be as follows:
+Assume that a `com.agx.User` has a list of skills. The corresponding HTML could be as follows:
 
 [source,xml,indent=0,subs="verbatim,quotes"]
 ----
@@ -1257,7 +1257,7 @@ Assume that a `User` has a list of skills. The corresponding HTML could be as fo
 	</tr>
 ----
 
-If the `User's` skill are in Herbology, the HTML source of the 'Skills' row could be
+If the `com.agx.User's` skill are in Herbology, the HTML source of the 'Skills' row could be
 as follows:
 
 [source,xml,indent=0,subs="verbatim,quotes"]
@@ -1296,7 +1296,7 @@ value. The following HTML shows typical output for it:
 	</tr>
 ----
 
-If the `User's` house was in Gryffindor, the HTML source of the 'House' row would be
+If the `com.agx.User's` house was in Gryffindor, the HTML source of the 'House' row would be
 as follows:
 
 [source,xml,indent=0,subs="verbatim,quotes"]
@@ -1335,7 +1335,7 @@ based on the bound value. The following HTML shows typical output for it:
 	</tr>
 ----
 
-If the `User` lived in the UK, the HTML source of the 'Country' row would be as follows:
+If the `com.agx.User` lived in the UK, the HTML source of the 'Country' row would be as follows:
 
 [source,xml,indent=0,subs="verbatim,quotes"]
 ----
@@ -1411,7 +1411,7 @@ created in your controller or those that were created by any validators associat
 your controller.
 
 Assume that we want to display all error messages for the `firstName` and `lastName`
-fields once we submit the form. We have a validator for instances of the `User` class
+fields once we submit the form. We have a validator for instances of the `com.agx.User` class
 called `UserValidator`, as the following example shows:
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
@@ -1420,7 +1420,7 @@ called `UserValidator`, as the following example shows:
 	public class UserValidator implements Validator {
 
 		public boolean supports(Class candidate) {
-			return User.class.isAssignableFrom(candidate);
+			return com.agx.User.class.isAssignableFrom(candidate);
 		}
 
 		public void validate(Object obj, Errors errors) {
@@ -1435,7 +1435,7 @@ called `UserValidator`, as the following example shows:
 	class UserValidator : Validator {
 
 		override fun supports(candidate: Class<*>): Boolean {
-			return User::class.java.isAssignableFrom(candidate)
+			return com.agx.User::class.java.isAssignableFrom(candidate)
 		}
 
 		override fun validate(obj: Any, errors: Errors) {

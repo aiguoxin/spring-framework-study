@@ -55,20 +55,20 @@ WebFlux, and for various other APIs.
 NOTE: Other libraries, such as Reactor and Spring Data, also provide Kotlin extensions
 for their APIs, thus giving a better Kotlin development experience overall.
 
-To retrieve a list of `User` objects in Java, you would normally write the following:
+To retrieve a list of `com.agx.User` objects in Java, you would normally write the following:
 
 [source,java,indent=0]
 ----
-	Flux<User> users  = client.get().retrieve().bodyToFlux(User.class)
+	Flux<com.agx.User> users  = client.get().retrieve().bodyToFlux(com.agx.User.class)
 ----
 
 With Kotlin and the Spring Framework extensions, you can instead write the following:
 
 [source,kotlin,indent=0]
 ----
-	val users = client.get().retrieve().bodyToFlux<User>()
+	val users = client.get().retrieve().bodyToFlux<com.agx.User>()
 	// or (both are equivalent)
-	val users : Flux<User> = client.get().retrieve().bodyToFlux()
+	val users : Flux<com.agx.User> = client.get().retrieve().bodyToFlux()
 ----
 
 As in Java, `users` in Kotlin is strongly typed, but Kotlin's clever type inference allows
@@ -263,7 +263,7 @@ as the following example shows:
 ----
 
 
-NOTE: Spring Boot is based on JavaConfig and
+NOTE: Spring Boot is based on com.agx.JavaConfig and
 https://github.com/spring-projects/spring-boot/issues/8115[does not yet provide specific support for functional bean definition],
 but you can experimentally use functional bean definitions through Spring Boot's `ApplicationContextInitializer` support.
 See https://stackoverflow.com/questions/45935931/how-to-use-functional-bean-definition-kotlin-dsl-with-spring-boot-and-spring-w/46033685#46033685[this Stack Overflow answer]
@@ -569,11 +569,11 @@ class UserHandler(builder: WebClient.Builder) {
 
 	suspend fun listView(request: ServerRequest): ServerResponse =
 			ServerResponse.ok().renderAndAwait("users", mapOf("users" to
-			client.get().uri("...").awaitExchange().awaitBody<User>()))
+			client.get().uri("...").awaitExchange().awaitBody<com.agx.User>()))
 
 	suspend fun listApi(request: ServerRequest): ServerResponse =
 				ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyAndAwait(
-				client.get().uri("...").awaitExchange().awaitBody<User>())
+				client.get().uri("...").awaitExchange().awaitBody<com.agx.User>())
 }
 ----
 
@@ -688,7 +688,7 @@ to make the compiler automatically derive the following members from all propert
 in the primary constructor:
 
 * `equals()` and `hashCode()`
-* `toString()` of the form `"User(name=John, age=42)"`
+* `toString()` of the form `"com.agx.User(name=John, age=42)"`
 * `componentN()` functions that correspond to the properties in their order of declaration
 * `copy()` function
 

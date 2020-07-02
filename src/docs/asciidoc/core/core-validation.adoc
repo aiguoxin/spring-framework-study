@@ -830,7 +830,7 @@ implementation of an `initBinder(..)` method:
 			this.customPropertyEditorRegistrar.registerCustomEditors(binder);
 		}
 
-		// other methods to do with registering a User
+		// other methods to do with registering a com.agx.User
 	}
 ----
 [source,kotlin,indent=0,subs="verbatim,quotes",role="secondary"]
@@ -844,7 +844,7 @@ implementation of an `initBinder(..)` method:
 			this.customPropertyEditorRegistrar.registerCustomEditors(binder)
 		}
 
-		// other methods to do with registering a User
+		// other methods to do with registering a com.agx.User
 	}
 ----
 

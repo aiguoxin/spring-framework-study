@@ -5126,7 +5126,7 @@ a Hibernate-based `UserRepository`:
 			// track initial state in test database:
 			final int count = countRowsInTable("user");
 
-			User user = new User(...);
+			com.agx.User user = new com.agx.User(...);
 			repository.save(user);
 
 			// Manual flush is required to avoid false positive in test
@@ -5169,7 +5169,7 @@ a Hibernate-based `UserRepository`:
 			// track initial state in test database:
 			val count = countRowsInTable("user")
 
-			val user = User()
+			val user = com.agx.User()
 			repository.save(user)
 
 			// Manual flush is required to avoid false positive in test
@@ -6660,7 +6660,7 @@ configuration and injects a `WebApplicationContext` into the test to use to buil
 
 Your second option is to manually create a controller instance without loading Spring
 configuration. Instead, basic default configuration, roughly comparable to that of the
-MVC JavaConfig or the MVC namespace, is automatically created. You can customize it to a
+MVC com.agx.JavaConfig or the MVC namespace, is automatically created. You can customize it to a
 degree. The following example shows how to do so:
 
 [source,java,indent=0,subs="verbatim,quotes",role="primary"]
