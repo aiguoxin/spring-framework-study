@@ -7,6 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * 2020/6/22 下午3:36
  * aiguoxin
  * 说明:
+ * 编译参考https://blog.csdn.net/riemann_/article/details/106558085
  */
 public class Main {
 
