@@ -14,6 +14,10 @@ import org.springframework.core.io.ClassPathResource;
  * 3、资源解析，注入（放到CurrentHashMap中）
  *
  * 如何自定义xml标签，并解析呢？https://github.com/dchjmichael/notes/blob/master/spring/schema/Spring%E6%89%A9%E5%B1%95.md
+ *
+ * 如何解决循环依赖问题？
+ * 只能处理单例，不能处理原型模式，因为单例使用了缓存，并且不等bean创建完，就把ObjectFactory加入缓存。
+ * 这样一旦下一个 bean 创建的时候需要依赖 bean 时则直接使用 ObjectFactroy。
  */
 public class BeanTest {
 
