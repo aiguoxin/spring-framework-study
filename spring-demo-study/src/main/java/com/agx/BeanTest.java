@@ -17,6 +17,6 @@ public class BeanTest {
         System.out.println("user="+user);
 
         ComponentScanBean componentScanBean = (ComponentScanBean)ac.getBean("componentScanBean");
-        System.out.println("componentScanBean="+componentScanBean.getName());
+        componentScanBean.print();
     }
 }

@@ -1,8 +1,6 @@
 package com.agx;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.springframework.stereotype.Component;
 
@@ -12,11 +10,28 @@ import org.springframework.stereotype.Component;
  * 说明:
  */
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @ToString
 @Component("componentScanBean")
 public class ComponentScanBean {
+    /**field注入**/
+    //    @Autowired
+    private User user;
+
+    /**construtor注入**/
+//    public ComponentScanBean(User user){
+//        this.user = user;
+//    }
 
     private String name = "ComponentScanBean";
+
+    /**setter注入**/
+//    @Autowired
+//    public void setUser(User user) {
+//        this.user = user;
+//    }
+
+
+    public void print() {
+        System.out.println(user.getName());
+    }
 }

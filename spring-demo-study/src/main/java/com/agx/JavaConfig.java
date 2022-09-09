@@ -1,6 +1,5 @@
 package com.agx;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -16,8 +15,8 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.agx")
 public class JavaConfig {
 
-    @Bean
-    public User user(){
-        return  new User(12312L,"aiguoxin");
-    }
+//    @Bean
+//    public User user(){
+//        return  new User(12312L,"aiguoxin");
+//    }
 }

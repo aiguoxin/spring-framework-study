@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.springframework.stereotype.Service;
 
 /**
  * 2020/6/22 下午3:30
@@ -14,9 +15,11 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Service
 public class User {
-    private long uid;
-    private String name;
+
+    private long uid=1L;
+    private String name="agx";
 
 
 }
