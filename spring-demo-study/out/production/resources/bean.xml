@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans 	xmlns="http://www.springframework.org/schema/beans"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xmlns:my="http://www.mycompany.com/schema/my"
-          xsi:schemaLocation="
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:my="http://www.mycompany.com/schema/my"
+       xsi:schemaLocation="
 	        http://www.springframework.org/schema/beans
 	        http://www.springframework.org/schema/beans/spring-beans.xsd
 	        http://www.mycompany.com/schema/my
 	        http://www.mycompany.com/schema/my.xsd">
 
-<!--    <bean id="user" class="com.agx.User" >-->
-<!--        <property name="uid" value="88888888"></property>-->
-<!--        <property name="name" value="agx"></property>-->
-<!--    </bean>-->
+    <!--    <bean id="user" class="com.agx.User" >-->
+    <!--        <property name="uid" value="88888888"></property>-->
+    <!--        <property name="name" value="agx"></property>-->
+    <!--    </bean>-->
 
     <my:user id="user" uid="12312" name="agx"/>
+
+    <bean id="window" class="com.agx.core.provider.Window" scope="prototype" lazy-init="true"/>
+
+    <bean id="windowGenerator" class="com.agx.core.provider.WindowGenerator">
+        <constructor-arg>
+            <bean class="org.springframework.beans.factory.config.ProviderCreatingFactoryBean">
+                <property name="targetBeanName" value="window"/>
+            </bean>
+        </constructor-arg>
+    </bean>
 </beans>

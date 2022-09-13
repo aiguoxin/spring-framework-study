@@ -12,4 +12,5 @@ import org.springframework.stereotype.Service;
 @Service
 @Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Prototype {
+
 }

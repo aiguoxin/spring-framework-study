@@ -3,6 +3,7 @@ package com.agx;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+
 /**
  * 2020/6/22 下午3:31
  * aiguoxin
@@ -19,4 +20,5 @@ public class JavaConfig {
 //    public User user(){
 //        return  new User(12312L,"aiguoxin");
 //    }
+
 }

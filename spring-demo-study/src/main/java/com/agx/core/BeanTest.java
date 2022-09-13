@@ -1,6 +1,7 @@
 package com.agx.core;
 
 import com.agx.User;
+import com.agx.core.provider.WindowGenerator;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.core.io.ClassPathResource;
@@ -30,5 +31,10 @@ public class BeanTest {
 //		User user = factory.getBean(User.class);
 		User user = (User) factory.getBean("user");
 		System.out.println("user name="+ user.getName());
+
+		WindowGenerator windowGenerator = (WindowGenerator)factory.getBean("windowGenerator");
+		for(int i=0;i<5;i++	){
+			System.out.println(windowGenerator.generateWindow());
+		}
 	}
 }
