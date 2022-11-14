@@ -1,0 +1,9 @@
+
+|
+java:S2637Ì"`This method's return value is marked "org.springframework.lang.NonNullApi" but null is returned.(ÔÆªÕüÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(ó½õE
+n
+java:S3776ı"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¨Ç´ëúÿÿÿÿ
+A
+java:S1181"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ

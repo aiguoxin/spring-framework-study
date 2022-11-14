@@ -8,6 +8,11 @@
 	        http://www.mycompany.com/schema/my
 	        http://www.mycompany.com/schema/my.xsd">
 
+    <bean name="banLifePostProcessor" class="com.agx.core.BeanLifePostProcessor"></bean>
+    <bean name="beanLife" class="com.agx.core.BeanLife" init-method="init" destroy-method="destroyMethod">
+        <property name="name" value="spring bean life cycle test"/>
+    </bean>
+
     <!--    <bean id="user" class="com.agx.User" >-->
     <!--        <property name="uid" value="88888888"></property>-->
     <!--        <property name="name" value="agx"></property>-->
@@ -15,13 +20,13 @@
 
     <my:user id="user" uid="12312" name="agx"/>
 
-    <bean id="window" class="com.agx.core.provider.Window" scope="prototype" lazy-init="true"/>
+<!--    <bean id="window" class="com.agx.core.provider.Window" scope="prototype" lazy-init="true"/>-->
 
-    <bean id="windowGenerator" class="com.agx.core.provider.WindowGenerator">
-        <constructor-arg>
-            <bean class="org.springframework.beans.factory.config.ProviderCreatingFactoryBean">
-                <property name="targetBeanName" value="window"/>
-            </bean>
-        </constructor-arg>
-    </bean>
+<!--    <bean id="windowGenerator" class="com.agx.core.provider.WindowGenerator">-->
+<!--        <constructor-arg>-->
+<!--            <bean class="org.springframework.beans.factory.config.ProviderCreatingFactoryBean">-->
+<!--                <property name="targetBeanName" value="window"/>-->
+<!--            </bean>-->
+<!--        </constructor-arg>-->
+<!--    </bean>-->
 </beans>

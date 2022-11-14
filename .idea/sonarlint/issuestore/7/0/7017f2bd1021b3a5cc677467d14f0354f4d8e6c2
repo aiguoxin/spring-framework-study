@@ -1,0 +1,55 @@
+
+
+java:S2637À"t"configurationFrozen" is marked "org.springframework.lang.NonNullFields" but is not initialized in this constructor.(éß¨±şÿÿÿÿ
+‹
+java:S2637È"t"configurationFrozen" is marked "org.springframework.lang.NonNullFields" but is not initialized in this constructor.(šï¢Ó
+e
+java:S1192Ø"IDefine a constant instead of duplicating this literal "] with [" 3 times.(ùª»Áúÿÿÿÿ
+{
+java:S1192Ü"_Define a constant instead of duplicating this literal "Required type must not be null" 4 times.(èñ¥ƒøÿÿÿÿ
+F
+java:S1066Œ"/Merge this if statement with the enclosing one.(œ¸¿Ñ
+V	java:S110y"<This class has 6 parents which is greater than 5 authorized.(×¥”ãøÿÿÿÿ
+n
+java:S3077°"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÇäÏ½
+s
+java:S3077³"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ş…µáüÿÿÿÿ
+<
+java:S3077·"&Use an "AtomicReferenceArray" instead.(ç°#
+R
+java:S1948›"6Make "dependencyComparator" transient or serializable.(ÄÑ¿ªøÿÿÿÿ
+W
+java:S1948";Make "autowireCandidateResolver" transient or serializable.(ùš²…şÿÿÿÿ
+J
+java:S1905¬"3Remove this unnecessary cast to "PrivilegedAction".(°¾Ñ
+i
+java:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(·¯´š
+n
+java:S3776¡"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(»ú‡•úÿÿÿÿ
+i
+java:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ğ¼ÿ¥
+i
+java:S3776Ò"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¾ˆµÛ
+i
+java:S3776€"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(şãûé
+J
+java:S1905”"3Remove this unnecessary cast to "PrivilegedAction".(‡é©½
+J
+java:S1905¬"3Remove this unnecessary cast to "PrivilegedAction".(°¾Ñ
+n
+java:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ù“§¥şÿÿÿÿ
+n
+java:S3776¢	"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(«ŞæØøÿÿÿÿ
+n
+java:S3776ñ	"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(î’•Ïùÿÿÿÿ
+i
+java:S3776Î
+"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(‡Ø±Ä
+e
+java:S1117Ä"IRename "dependencyComparator" which hides the field declared at line 154.(¢Æí®ıÿÿÿÿ
+i
+java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ç‰àú
+i
+java:S3776ñ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¨Û€†
+G
+java:S2160á"+Override the "equals" method in this class.(…Š–øıÿÿÿÿ

@@ -1,0 +1,62 @@
+
+|
+java:S2637ù"`This method's return value is marked "org.springframework.lang.NonNullApi" but null is returned.(üöÃÇøÿÿÿÿ
+w
+java:S2637º"`This method's return value is marked "org.springframework.lang.NonNullApi" but null is returned.(¥¹ï
+a	java:S112Í"FDefine and throw a dedicated exception instead of using a generic one.(ç¼ëŞüÿÿÿÿ
+¼
+java:S4449í"¤Annotate the parameter with @javax.annotation.Nullable in method 'isSingletonCurrentlyInCreation' declaration, or make sure that null can not be passed as argument.(ÎŸ¾œ
+P
+java:S5993¶"9Change the visibility of this constructor to "protected".(ùƒ²É
+U
+java:S5993Ç"9Change the visibility of this constructor to "protected".(¨ÎÒÒşÿÿÿÿ
+O
+java:S1905ş"3Remove this unnecessary cast to "PrivilegedAction".(Ø«Åüùÿÿÿÿ
+A
+java:S1181"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+A
+java:S1181"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+n
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(£òÛ«úÿÿÿÿ
+A
+java:S1181É"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+A
+java:S1181ã"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+n
+java:S3776Ì"RRefactor this method to reduce its Cognitive Complexity from 86 to the 15 allowed.(Ïë©ÿûÿÿÿÿ
+A
+java:S1181™"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+i
+java:S3776Å"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(•«¦®
+Q
+java:S1133¾"5Do not forget to remove this deprecated code someday.(±ÄĞƒùÿÿÿÿ
+D
+java:S1123¾"(Add the missing @deprecated Javadoc tag.(±ÄĞƒùÿÿÿÿ
+`
+java:S1117ï	"IRename "currentlyCreatedBean" which hides the field declared at line 166.(îø¹Ì
+B
+java:S1452
+"&Remove usage of generic wildcard type.(è®šÖüÿÿÿÿ
+A
+java:S1181¤
+"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+O
+java:S1905š
+"3Remove this unnecessary cast to "PrivilegedAction".(êãÌÍşÿÿÿÿ
+n
+java:S3776×
+"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(ª‹‘áøÿÿÿÿ
+i
+java:S3776Ë"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ëšˆ
+i
+java:S3776å"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(ŠœÉ‚
+J
+java:S1905é"3Remove this unnecessary cast to "PrivilegedAction".(°¾Ñ
+i
+java:S3776£"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(È·äƒ
+S
+java:S1905­"<Remove this unnecessary cast to "PrivilegedExceptionAction".(° Ì±
+J
+java:S1905ê"3Remove this unnecessary cast to "PrivilegedAction".(°¾Ñ
+S
+java:S1905ï"<Remove this unnecessary cast to "PrivilegedExceptionAction".(½¢†³

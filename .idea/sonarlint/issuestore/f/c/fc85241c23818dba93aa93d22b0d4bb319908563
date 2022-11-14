@@ -1,0 +1,63 @@
+
+F
+java:S1066Ó"/Merge this if statement with the enclosing one.(—õº×
+Q
+java:S1141¸"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141é"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+±
+java:S4449Û
+"™Annotate the parameter with @javax.annotation.Nullable in method 'transformedBeanName' declaration, or make sure that null can not be passed as argument.(îªÊ½
+n
+java:S2259Û"RA "NullPointerException" could be thrown; "getParentBeanFactory" is nullable here.(ñˆ ‡ûÿÿÿÿ
+n
+java:S2259Ë"RA "NullPointerException" could be thrown; "getParentBeanFactory" is nullable here.(ëëÕûÿÿÿÿ
+n
+java:S3077¢"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÖˆØÂ
+P
+java:S5993¹"9Change the visibility of this constructor to "protected".(ŒÒ¹”
+P
+java:S5993Á"9Change the visibility of this constructor to "protected".(ó™ÀÅ
+i
+java:S3776ô"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(šÊ¯·
+b
+java:S1117’"FRename "parentBeanFactory" which hides the field declared at line 122.(¦àôÀıÿÿÿÿ
+b
+java:S1117›"FRename "parentBeanFactory" which hides the field declared at line 122.(¦àôÀıÿÿÿÿ
+b
+java:S1117®"FRename "parentBeanFactory" which hides the field declared at line 122.(¦àôÀıÿÿÿÿ
+b
+java:S1117Ì"FRename "parentBeanFactory" which hides the field declared at line 122.(¦àôÀıÿÿÿÿ
+J
+java:S1905á"3Remove this unnecessary cast to "PrivilegedAction".(¾¸¦À
+n
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 72 to the 15 allowed.(İÀÛ×ÿÿÿÿÿ
+b
+java:S1117·"FRename "parentBeanFactory" which hides the field declared at line 122.(¦àôÀıÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(­ˆ¶øÿÿÿÿ
+b
+java:S1117¬"FRename "parentBeanFactory" which hides the field declared at line 122.(¦àôÀıÿÿÿÿ
+b
+java:S1117å"FRename "parentBeanFactory" which hides the field declared at line 122.(¦àôÀıÿÿÿÿ
+^
+java:S1117û"BRename "typeConverter" which hides the field declared at line 151.(ÇÈ€áøÿÿÿÿ
+n
+java:S3776Ã"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ò¤œ€üÿÿÿÿ
+n
+java:S3776ñ	"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ğ¤Û‘üÿÿÿÿ
+n
+java:S3776¿
+"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(·¥‡ïøÿÿÿÿ
+S
+java:S1905Ş"<Remove this unnecessary cast to "PrivilegedExceptionAction".(®¿ûá
+n
+java:S3776ò"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(Â£€Ïÿÿÿÿÿ
+`
+java:S1117õ"DRename "beanClassLoader" which hides the field declared at line 126.(ÊƒÖŒùÿÿÿÿ
+`
+java:S1117ü"DRename "tempClassLoader" which hides the field declared at line 130.(ÕäÃŠûÿÿÿÿ
+Q
+java:S1133É"5Do not forget to remove this deprecated code someday.(±ÄĞƒùÿÿÿÿ
+8
+java:S1116—"Remove this empty statement.(ôŸìúÿÿÿÿ

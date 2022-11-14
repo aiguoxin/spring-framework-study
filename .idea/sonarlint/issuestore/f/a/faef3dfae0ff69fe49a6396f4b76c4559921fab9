@@ -1,0 +1,21 @@
+
+C
+java:S2699_"-Add at least one assertion to this test case.(»Ûê
+C
+java:S2699f"-Add at least one assertion to this test case.(ü˜–
+9
+java:S57863"Remove this 'public' modifier.(ï¢úˆıÿÿÿÿ
+9
+java:S5786;"Remove this 'public' modifier.(ÃÃ¢«ûÿÿÿÿ
+4
+java:S5786P"Remove this 'public' modifier.(Ûğº
+4
+java:S5786_"Remove this 'public' modifier.(»Ûê
+4
+java:S5786f"Remove this 'public' modifier.(ü˜–
+4
+java:S5786m"Remove this 'public' modifier.(ÈÊ
+3
+java:S5786)"Remove this 'public' modifier.(ö¼î[
+V
+java:S58387";Use assertThat(actual).hasToString(expectedString) instead.(õ¡Ğ¿ûÿÿÿÿ

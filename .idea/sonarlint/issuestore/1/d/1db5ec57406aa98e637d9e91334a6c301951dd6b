@@ -1,0 +1,17 @@
+
+|
+java:S2637Ÿ"`This method's return value is marked "org.springframework.lang.NonNullApi" but null is returned.(Åñ¼¡úÿÿÿÿ
+|
+java:S2637œ"`This method's return value is marked "org.springframework.lang.NonNullApi" but null is returned.(è¿ŠŞúÿÿÿÿ
+F
+java:S1066ÿ"/Merge this if statement with the enclosing one.(øÎïæ
+>
+java:S1948e"(Make "logger" transient or serializable.(¬Ç´
+N
+java:S1948q"8Make "advisorAdapterRegistry" transient or serializable.(ŒÚÀ¾
+O
+java:S1948‚"3Make "singletonInstance" transient or serializable.(üÚä‹ûÿÿÿÿ
+
+java:S1130"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(Ğãš
+n
+java:S3776§"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ƒ•…¤ùÿÿÿÿ

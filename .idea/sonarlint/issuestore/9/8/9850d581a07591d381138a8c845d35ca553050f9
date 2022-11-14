@@ -1,0 +1,10 @@
+
+\	java:S112¨"FDefine and throw a dedicated exception instead of using a generic one.(š·Ğä
+a	java:S112Ş"FDefine and throw a dedicated exception instead of using a generic one.(Ò‘Ù½úÿÿÿÿ
+\	java:S112û"FDefine and throw a dedicated exception instead of using a generic one.(Ñ’Ïµ
+U
+java:S1117~"?Rename "beanFactory" which hides the field declared at line 74.(œ«ïÎ
+O
+java:S3398»"8Move this method into "EarlySingletonInvocationHandler".(§ÅÛ
+y
+java:S3038Ñ"]"getObjectType" is defined in the "FactoryBean" interface and can be removed from this class.(òº‘ïûÿÿÿÿ

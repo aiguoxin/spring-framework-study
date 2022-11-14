@@ -3,7 +3,6 @@ package com.agx;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 import org.springframework.stereotype.Service;
 
 /**
@@ -14,7 +13,6 @@ import org.springframework.stereotype.Service;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
 @Service
 public class User {
 

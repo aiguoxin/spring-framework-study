@@ -1,0 +1,29 @@
+
+ƒ
+java:S2637õ"l"startupDate" is marked "org.springframework.lang.NonNullFields" but is not initialized in this constructor.(†á×¶
+|
+java:S2637±
+"`This method's return value is marked "org.springframework.lang.NonNullApi" but null is returned.(§§»Èÿÿÿÿÿ
+c
+java:S2259§
+"GA "NullPointerException" could be thrown; "getParent" is nullable here.(Ç¤€ùùÿÿÿÿ
+]
+java:S2259Ò
+"GA "NullPointerException" could be thrown; "getParent" is nullable here.(—ÒÁr
+P
+java:S5993õ"9Change the visibility of this constructor to "protected".(†á×¶
+U
+java:S5993ı"9Change the visibility of this constructor to "protected".(×ûë¨üÿÿÿÿ
+u	java:S115¢"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÑôÑ‡øÿÿÿÿ
+=
+java:S1452"&Remove usage of generic wildcard type.(Ğ¬öÎ
+L
+java:S1133×"5Do not forget to remove this deprecated code someday.(‚“¶î
+A
+java:S1181‰"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+A
+java:S1181’"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+
+java:S3038š"q"getBeanFactory" is defined in the "ConfigurableApplicationContext" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+W
+java:S1117¥";Rename "parent" which hides the field declared at line 189.(ÌšÃüÿÿÿÿ
